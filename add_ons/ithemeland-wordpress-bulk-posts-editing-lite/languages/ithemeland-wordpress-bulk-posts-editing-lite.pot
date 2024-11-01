@@ -1,0 +1,1321 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: iThemeland Wordpress Bulk Posts Editing Lite\n"
+"POT-Creation-Date: 2023-06-08 20:31+0330\n"
+"PO-Revision-Date: 2023-06-08 20:31+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ithemeland-wordpress-bulk-posts-editing-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/bootstrap/WPBEL.php:67
+msgid "iT WP Posts"
+msgstr ""
+
+#: classes/bootstrap/WPBEL.php:112
+msgid "Please select one post"
+msgstr ""
+
+#: classes/controllers/WPBEL_Ajax.php:131
+#: classes/controllers/WPBEL_Ajax.php:507
+#: classes/controllers/WPBEL_Ajax.php:597
+#: classes/controllers/WPBEL_Ajax.php:619
+#: classes/controllers/WPBEL_Ajax.php:632
+#: classes/controllers/WPBEL_Ajax.php:764 classes/controllers/WPBEL_Post.php:62
+#: classes/controllers/WPBEL_Post.php:122
+#: classes/controllers/WPBEL_Post.php:133 classes/helpers/Lang_Helper.php:10
+msgid "Success !"
+msgstr ""
+
+#: classes/controllers/WPBEL_Post.php:65
+msgid "System Error !"
+msgstr ""
+
+#: classes/controllers/WPBEL_Post.php:69
+msgid "Connection Timeout! Please Try Again"
+msgstr ""
+
+#: classes/controllers/Wordpress_Posts_Bulk_Edit.php:51
+#: classes/controllers/Wordpress_Posts_Bulk_Edit.php:149
+msgid "Ithemeland Wordpress Bulk Posts Editing Lite"
+msgstr ""
+
+#: classes/helpers/Generator.php:73 classes/repositories/Meta_Field.php:67
+#: views/activation/main.php:32 views/bulk_edit/bulk_edit_form.php:51
+#: views/bulk_edit/bulk_edit_form.php:61 views/bulk_edit/bulk_edit_form.php:71
+#: views/bulk_edit/bulk_edit_form.php:83 views/bulk_edit/bulk_edit_form.php:104
+#: views/bulk_edit/bulk_edit_form.php:111
+#: views/bulk_edit/bulk_edit_form.php:118
+#: views/bulk_edit/bulk_edit_form.php:169
+#: views/bulk_edit/bulk_edit_form.php:236 views/bulk_edit/filter_form.php:92
+#: views/bulk_edit/filter_form.php:127 views/bulk_edit/filter_form.php:134
+#: views/bulk_edit/filter_form.php:141 views/bulk_edit/filter_form.php:148
+#: views/bulk_edit/filter_form.php:198 views/history/main.php:25
+#: views/history/main.php:36
+msgid "Select"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:10
+msgid "Automotive"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:11
+msgid "AdTech and AdNetwork"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:12
+msgid "Agency"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:13
+msgid "B2B Software"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:14
+msgid "B2C Internet Services"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:15
+msgid "Classifieds"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:16
+msgid "Consulting and Market Research"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:17
+msgid "CPG"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:18
+msgid "Education"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:19
+msgid "Education (Student)"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:20
+msgid "Equity Research"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:21
+msgid "Financial Services"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:22
+msgid "Gambling and Gaming"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:23
+msgid "Hedge Funds and Asset Management"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:24
+msgid "Investment Banking"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:25
+msgid "Logistics and Shipping"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:26
+msgid "Payments"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:27
+msgid "Pharma and Healthcare"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:28
+msgid "Private Equity and Venture Capital"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:29
+msgid "Publishers and Media"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:30
+msgid "Public Sector, Non Profit, Fraud and Compliance"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:31
+msgid "Retail and eCommerce"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:32
+msgid "Telecom"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:33
+msgid "Travel"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:34
+msgid "Other"
+msgstr ""
+
+#: classes/helpers/Operator.php:10 views/navigation/buttons.php:48
+msgid "New"
+msgstr ""
+
+#: classes/helpers/Operator.php:11 classes/helpers/Operator.php:29
+msgid "Append"
+msgstr ""
+
+#: classes/helpers/Operator.php:12
+msgid "Prepend"
+msgstr ""
+
+#: classes/helpers/Operator.php:13 classes/helpers/Operator.php:31
+#: views/column_manager/main.php:50 views/history/history_items.php:58
+#: views/modals/filter_profile_item.php:18 views/navigation/buttons.php:54
+msgid "Delete"
+msgstr ""
+
+#: classes/helpers/Operator.php:14 classes/helpers/Operator.php:30
+msgid "Replace"
+msgstr ""
+
+#: classes/helpers/Operator.php:38
+msgid "Set New"
+msgstr ""
+
+#: classes/helpers/Operator.php:39
+msgid "Clear Value"
+msgstr ""
+
+#: classes/helpers/Operator.php:40
+msgid "Formula"
+msgstr ""
+
+#: classes/helpers/Operator.php:41
+msgid "Increase by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:42
+msgid "Decrease by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:43
+msgid "Increase by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:44
+msgid "Decrease by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:51
+msgid "Increase by value (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:52
+msgid "Increase by % (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:59
+msgid "Decrease by value (From regular)"
+msgstr ""
+
+#: classes/helpers/Operator.php:60
+msgid "Decrease by % (From regular)"
+msgstr ""
+
+#: classes/helpers/Operator.php:67 views/bulk_edit/filter_bar.php:16
+#: views/bulk_edit/filter_form.php:42 views/bulk_edit/filter_form.php:53
+#: views/bulk_edit/filter_form.php:64 views/bulk_edit/filter_form.php:76
+#: views/bulk_edit/filter_form.php:84 views/bulk_edit/filter_form.php:190
+msgid "Like"
+msgstr ""
+
+#: classes/helpers/Operator.php:68 views/bulk_edit/filter_bar.php:19
+#: views/bulk_edit/filter_form.php:31 views/bulk_edit/filter_form.php:43
+#: views/bulk_edit/filter_form.php:54 views/bulk_edit/filter_form.php:65
+msgid "Exact"
+msgstr ""
+
+#: classes/helpers/Operator.php:69 views/bulk_edit/filter_bar.php:22
+#: views/bulk_edit/filter_form.php:44 views/bulk_edit/filter_form.php:55
+#: views/bulk_edit/filter_form.php:66
+msgid "Not"
+msgstr ""
+
+#: classes/helpers/Operator.php:70 views/bulk_edit/filter_bar.php:25
+#: views/bulk_edit/filter_form.php:45 views/bulk_edit/filter_form.php:56
+#: views/bulk_edit/filter_form.php:67
+msgid "Begin"
+msgstr ""
+
+#: classes/helpers/Operator.php:71 views/bulk_edit/filter_bar.php:28
+#: views/bulk_edit/filter_form.php:46 views/bulk_edit/filter_form.php:57
+#: views/bulk_edit/filter_form.php:68
+msgid "End"
+msgstr ""
+
+#: classes/providers/column/PostColumnProvider.php:42
+msgid "Delete post"
+msgstr ""
+
+#: classes/providers/column/PostColumnProvider.php:49
+msgid "Delete permanently"
+msgstr ""
+
+#: classes/providers/column/PostColumnProvider.php:50
+msgid "Restore"
+msgstr ""
+
+#: classes/repositories/Column.php:112 views/bulk_edit/filter_bar.php:8
+#: views/bulk_edit/variable.php:3 views/settings/main.php:44
+msgid "Title"
+msgstr ""
+
+#: classes/repositories/Column.php:297 classes/repositories/Column.php:298
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/repositories/Column.php:305 classes/repositories/Column.php:306
+#: views/bulk_edit/bulk_edit_form.php:69
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:29
+msgid "Description"
+msgstr ""
+
+#: classes/repositories/Column.php:313 classes/repositories/Column.php:314
+#: views/bulk_edit/bulk_edit_form.php:80
+msgid "Short Description"
+msgstr ""
+
+#: classes/repositories/Column.php:321 classes/repositories/Column.php:322
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:19
+msgid "Slug"
+msgstr ""
+
+#: classes/repositories/Column.php:329 classes/repositories/Column.php:330
+#: views/bulk_edit/bulk_edit_form.php:102 views/bulk_edit/filter_form.php:132
+msgid "Comment Status"
+msgstr ""
+
+#: classes/repositories/Column.php:334 classes/repositories/Column.php:355
+msgid "Open"
+msgstr ""
+
+#: classes/repositories/Column.php:335 classes/repositories/Column.php:356
+msgid "Closed"
+msgstr ""
+
+#: classes/repositories/Column.php:341 classes/repositories/Column.php:342
+msgid "Status"
+msgstr ""
+
+#: classes/repositories/Column.php:350 classes/repositories/Column.php:351
+msgid "Ping Status"
+msgstr ""
+
+#: classes/repositories/Column.php:362 classes/repositories/Column.php:363
+#: views/bulk_edit/bulk_edit_form.php:59
+msgid "Post Password"
+msgstr ""
+
+#: classes/repositories/Column.php:370 classes/repositories/Column.php:371
+#: views/bulk_edit/bulk_edit_form.php:160
+msgid "Post Type"
+msgstr ""
+
+#: classes/repositories/Column.php:379 classes/repositories/Column.php:380
+msgid "Menu order"
+msgstr ""
+
+#: classes/repositories/Column.php:387 classes/repositories/Column.php:388
+#: views/bulk_edit/bulk_edit_form.php:116 views/history/main.php:34
+#: views/history/main.php:84
+msgid "Author"
+msgstr ""
+
+#: classes/repositories/Column.php:396 classes/repositories/Column.php:397
+#: views/bulk_edit/bulk_edit_form.php:185 views/bulk_edit/filter_form.php:153
+msgid "Date Published"
+msgstr ""
+
+#: classes/repositories/Column.php:405 classes/repositories/Column.php:406
+msgid "GMT Date Published"
+msgstr ""
+
+#: classes/repositories/Column.php:414 classes/repositories/Column.php:415
+#: views/bulk_edit/bulk_edit_form.php:195 views/bulk_edit/filter_form.php:165
+#: views/column_manager/main.php:28 views/history/main.php:85
+#: views/modals/filter_profiles.php:19
+msgid "Date Modified"
+msgstr ""
+
+#: classes/repositories/Column.php:423 classes/repositories/Column.php:424
+msgid "GMT Date Modified"
+msgstr ""
+
+#: classes/repositories/Column.php:432 classes/repositories/Column.php:433
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:23
+msgid "Parent"
+msgstr ""
+
+#: classes/repositories/Column.php:440 classes/repositories/Column.php:441
+#: views/bulk_edit/bulk_edit_form.php:178 views/bulk_edit/filter_form.php:146
+msgid "Sticky"
+msgstr ""
+
+#: classes/repositories/Column.php:445 classes/repositories/Column.php:465
+#: views/settings/main.php:63 views/settings/main.php:74
+#: views/settings/main.php:96
+msgid "Yes"
+msgstr ""
+
+#: classes/repositories/Column.php:446 classes/repositories/Column.php:466
+#: views/settings/main.php:66 views/settings/main.php:77
+#: views/settings/main.php:99
+msgid "No"
+msgstr ""
+
+#: classes/repositories/Column.php:452 classes/repositories/Column.php:453
+#: views/bulk_edit/bulk_edit_form.php:205 views/bulk_edit/filter_form.php:82
+msgid "Post URL"
+msgstr ""
+
+#: classes/repositories/Column.php:460 classes/repositories/Column.php:461
+#: views/bulk_edit/bulk_edit_form.php:109 views/bulk_edit/filter_form.php:139
+msgid "Allow Pingback"
+msgstr ""
+
+#: classes/repositories/History.php:29
+msgid "Bulk Operation"
+msgstr ""
+
+#: classes/repositories/History.php:30
+msgid "Inline Operation"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:55
+msgid "TextInput"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:56
+msgid "TextArea"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:57
+msgid "Checkbox"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:58
+msgid "Radio"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:59
+msgid "Array"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:60
+msgid "Calendar"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:61 views/activation/main.php:26
+msgid "Email"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:62
+msgid "Password"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:63
+msgid "Url"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:64
+#: views/bulk_edit/bulk_edit_form.php:123
+msgid "Image"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:65
+msgid "File"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:66
+msgid "Editor"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:98
+msgid "String"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:99
+msgid "Number"
+msgstr ""
+
+#: classes/repositories/Post.php:20
+msgid "Post"
+msgstr ""
+
+#: classes/repositories/Post.php:21
+msgid "Page"
+msgstr ""
+
+#: classes/repositories/Post.php:295
+msgid "Trash"
+msgstr ""
+
+#: classes/repositories/Search.php:132
+msgid "All Posts"
+msgstr ""
+
+#: classes/repositories/Search.php:144
+msgid "All Pages"
+msgstr ""
+
+#: classes/repositories/Search.php:156
+msgid "All Custom Posts"
+msgstr ""
+
+#: views/activation/main.php:10
+msgid "Congratulations, Your plugin is activated successfully. Let's Go!"
+msgstr ""
+
+#: views/activation/main.php:30
+msgid "What is your industry?"
+msgstr ""
+
+#: views/activation/main.php:45
+msgid "Activate"
+msgstr ""
+
+#: views/activation/main.php:46
+msgid "Skip"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:6
+msgid "Bulk Edit Form"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:17 views/bulk_edit/filter_form.php:15
+msgid "General"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:21 views/bulk_edit/filter_form.php:19
+msgid "Categories/Tags/Taxonomies"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:25 views/bulk_edit/filter_form.php:23
+msgid "Date & Type"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:26 views/bulk_edit/filter_form.php:24
+msgid "Custom Fields"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:34 views/bulk_edit/filter_form.php:40
+msgid "Post Title"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:41
+msgid "Remove Duplicate"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:43 views/bulk_edit/filter_form.php:48
+msgid "Post Title ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:49 views/bulk_edit/filter_form.php:74
+msgid "Post Slug"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:53 views/bulk_edit/filter_form.php:78
+msgid "Post Slug ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:63
+msgid "Post Password ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:73
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:30
+msgid "Description ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:85
+msgid "Short Description ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:90 views/bulk_edit/filter_form.php:177
+#: views/bulk_edit/variable.php:5
+msgid "Menu Order"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:91
+msgid "Menu Order ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:95
+msgid "Post Parent"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:97
+msgid "No Parent"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:125
+msgid "Choose Image"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:135 views/bulk_edit/filter_form.php:41
+#: views/bulk_edit/filter_form.php:52 views/bulk_edit/filter_form.php:63
+#: views/bulk_edit/filter_form.php:75 views/bulk_edit/filter_form.php:83
+#: views/bulk_edit/filter_form.php:102 views/bulk_edit/filter_form.php:189
+#: views/modals/numeric_calculator.php:13
+msgid "Select Operator"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:154 views/bulk_edit/filter_form.php:119
+msgid "There is not any added Custom Taxonomies"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:162
+msgid "Select Type ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:167 views/bulk_edit/filter_form.php:125
+msgid "Post Status"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:180
+msgid "Select ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:186
+msgid "Date Published ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:190 views/bulk_edit/filter_form.php:159
+msgid "Date Published GMT"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:191
+msgid "Date Published GMT ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:196
+msgid "Date Modified ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:200 views/bulk_edit/filter_form.php:171
+msgid "Date Modified GMT"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:201
+msgid "Date Modified GMT ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:247 views/bulk_edit/filter_form.php:209
+msgid ""
+"There is not any added Meta Fields, You can add new Meta Fields trough "
+"\"Meta Fields\" tab."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:257
+msgid "Do Bulk Edit"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:260
+msgid "Reset Form"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:6
+msgid "New Post Taxonomy"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:15
+msgid "Name"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:16
+msgid "Taxonomy Name ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:20
+msgid "Taxonomy Slug ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:25
+msgid "None"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_post_taxonomy.php:37
+#: views/modals/new_item.php:30
+msgid "Create"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/post_taxonomy.php:7
+msgid "Taxonomy Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/post_taxonomy.php:14
+msgid "Type for search"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/post_taxonomy.php:32
+#: views/bulk_edit/columns_modals/select_post.php:20 views/modals/file.php:25
+#: views/modals/image.php:24 views/modals/numeric_calculator.php:23
+#: views/modals/text_editor.php:18
+msgid "Apply Changes"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/post_taxonomy.php:35
+msgid "Add New"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/select_post.php:6
+msgid "Select Post"
+msgstr ""
+
+#: views/bulk_edit/filter_bar.php:5
+msgid "Quick Search ..."
+msgstr ""
+
+#: views/bulk_edit/filter_bar.php:11 views/bulk_edit/variable.php:4
+#: views/data_table/items.php:19 views/settings/main.php:41
+msgid "ID"
+msgstr ""
+
+#: views/bulk_edit/filter_bar.php:39
+msgid "Status Filter"
+msgstr ""
+
+#: views/bulk_edit/filter_bar.php:40
+msgid "Statuses"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:7
+msgid "Filter Form"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:29
+msgid "Post ID(s)"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:33
+msgid "for example: 1,2,3 or 1-10 or 1,2,3|10-20"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:36
+msgid "Only Parent Posts"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:51
+msgid "Post Content"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:59
+msgid "Post Content ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:62
+msgid "Post Excerpt"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:70
+msgid "Post Excerpt ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:86
+msgid "Post URL ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:90
+msgid "By Author"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:103
+msgid "OR"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:104
+msgid "AND"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:105
+msgid "NOT IN"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:154
+msgid "Date Published From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:155
+msgid "Date Published To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:160
+msgid "Date Published GMT From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:161
+msgid "Date Published GMT To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:166 views/bulk_edit/filter_form.php:172
+msgid "Date Modified From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:167 views/bulk_edit/filter_form.php:173
+msgid "Date Modified To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:178
+msgid "Menu Order From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:179
+msgid "Menu Order To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:194 views/bulk_edit/filter_form.php:201
+#: views/history/main.php:50
+msgid "From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:195 views/bulk_edit/filter_form.php:202
+#: views/history/main.php:51
+msgid "To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:219
+msgid "Get Posts"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:222 views/history/main.php:62
+msgid "Reset Filters"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:228
+msgid "Save Profile"
+msgstr ""
+
+#: views/bulk_edit/post_types.php:6 views/bulk_edit/post_types.php:7
+msgid "Select post type"
+msgstr ""
+
+#: views/bulk_edit/status_filters.php:3
+msgid "All"
+msgstr ""
+
+#: views/bulk_edit/variable.php:1
+msgid "Select Variable"
+msgstr ""
+
+#: views/bulk_edit/variable.php:2
+msgid "Variable"
+msgstr ""
+
+#: views/bulk_edit/variable.php:6
+msgid "Parent ID"
+msgstr ""
+
+#: views/bulk_edit/variable.php:7
+msgid "Parent Title"
+msgstr ""
+
+#: views/column_manager/edit_preset.php:9
+msgid "Edit Column Preset"
+msgstr ""
+
+#: views/column_manager/edit_preset.php:20 views/column_manager/main.php:72
+#: views/data_table/items.php:18 views/modals/column_profiles.php:38
+msgid "Select All"
+msgstr ""
+
+#: views/column_manager/edit_preset.php:22 views/column_manager/main.php:68
+msgid "Search Field ..."
+msgstr ""
+
+#: views/column_manager/edit_preset.php:50
+msgid "Profile name ..."
+msgstr ""
+
+#: views/column_manager/edit_preset.php:61 views/modals/column_profiles.php:107
+#: views/settings/main.php:111
+msgid "Save Changes"
+msgstr ""
+
+#: views/column_manager/field_item.php:5
+msgid "Enter column title ..."
+msgstr ""
+
+#: views/column_manager/field_item.php:5
+msgid "Enter column title"
+msgstr ""
+
+#: views/column_manager/field_item.php:6
+msgid "Background Color"
+msgstr ""
+
+#: views/column_manager/field_item.php:7
+msgid "Select Background Color"
+msgstr ""
+
+#: views/column_manager/field_item.php:10
+msgid "Select Text Color"
+msgstr ""
+
+#: views/column_manager/main.php:6 views/navigation/buttons.php:93
+msgid "Column Manager"
+msgstr ""
+
+#: views/column_manager/main.php:15
+msgid ""
+"Mange columns of table. You can Create your customize presets and use them "
+"in column profile section."
+msgstr ""
+
+#: views/column_manager/main.php:18 views/modals/column_profiles.php:6
+msgid "Column Profiles"
+msgstr ""
+
+#: views/column_manager/main.php:27 views/modals/filter_profiles.php:18
+msgid "Profile Name"
+msgstr ""
+
+#: views/column_manager/main.php:29 views/history/main.php:86
+#: views/modals/filter_profiles.php:21
+msgid "Actions"
+msgstr ""
+
+#: views/column_manager/main.php:46
+msgid "Edit"
+msgstr ""
+
+#: views/column_manager/main.php:66
+msgid "Create New Profile"
+msgstr ""
+
+#: views/column_manager/main.php:68
+msgid "Search Field"
+msgstr ""
+
+#: views/column_manager/main.php:104
+msgid "Save Preset"
+msgstr ""
+
+#: views/column_manager/main.php:108
+msgid "Please add your columns here"
+msgstr ""
+
+#: views/data_table/items.php:75 views/layouts/header.php:2
+msgid "Loading ..."
+msgstr ""
+
+#: views/data_table/items.php:88
+msgid "No Data Available!"
+msgstr ""
+
+#: views/history/history_items.php:54
+msgid "Revert"
+msgstr ""
+
+#: views/history/main.php:6 views/navigation/buttons.php:105
+#: views/navigation/buttons.php:113
+msgid "History"
+msgstr ""
+
+#: views/history/main.php:14
+msgid "List of your changes and possible to roll back to the previous data"
+msgstr ""
+
+#: views/history/main.php:23
+msgid "Operation"
+msgstr ""
+
+#: views/history/main.php:45 views/import_export/main.php:34
+msgid "Fields"
+msgstr ""
+
+#: views/history/main.php:49
+msgid "Date"
+msgstr ""
+
+#: views/history/main.php:58
+msgid "Apply Filters"
+msgstr ""
+
+#: views/history/main.php:69
+msgid "Clear History"
+msgstr ""
+
+#: views/history/main.php:76
+msgid "Column(s)"
+msgstr ""
+
+#: views/history/main.php:83
+msgid "History Name"
+msgstr ""
+
+#: views/import_export/main.php:6 views/navigation/buttons.php:132
+msgid "Import/Export"
+msgstr ""
+
+#: views/import_export/main.php:15
+msgid "Import/Export posts as (CSV/XML) files"
+msgstr ""
+
+#: views/import_export/main.php:23
+msgid "Posts"
+msgstr ""
+
+#: views/import_export/main.php:26
+msgid "All Posts In Table"
+msgstr ""
+
+#: views/import_export/main.php:30
+msgid "Only Selected posts"
+msgstr ""
+
+#: views/import_export/main.php:37
+msgid "All Fields"
+msgstr ""
+
+#: views/import_export/main.php:41
+msgid "Only Visible Fields"
+msgstr ""
+
+#: views/import_export/main.php:45
+msgid "Delimiter"
+msgstr ""
+
+#: views/import_export/main.php:51
+msgid "Export Type"
+msgstr ""
+
+#: views/import_export/main.php:62
+msgid "Export Now"
+msgstr ""
+
+#: views/import_export/main.php:70
+msgid ""
+"If you have posts in another system, you can import those into this site. "
+msgstr ""
+
+#: views/import_export/main.php:76
+msgid "Import Now"
+msgstr ""
+
+#: views/meta_field/main.php:6
+msgid "Meta Fields"
+msgstr ""
+
+#: views/meta_field/main.php:15
+msgid ""
+"You can add new posts meta fields in two ways: 1- Individually 2- Get from "
+"other post."
+msgstr ""
+
+#: views/meta_field/main.php:23
+msgid "Manually"
+msgstr ""
+
+#: views/meta_field/main.php:25
+msgid "Enter Meta Key ..."
+msgstr ""
+
+#: views/meta_field/main.php:32
+msgid "Automatically From post"
+msgstr ""
+
+#: views/meta_field/main.php:34
+msgid "Enter Post ID ..."
+msgstr ""
+
+#: views/meta_field/main.php:43
+#, php-format
+msgid "Please add your meta key manually %s OR %s From another post"
+msgstr ""
+
+#: views/meta_field/main.php:56
+msgid "Save Fields"
+msgstr ""
+
+#: views/meta_field/meta_field_item.php:4
+msgid "Enter field title ..."
+msgstr ""
+
+#: views/meta_field/meta_field_item.php:11
+#: views/meta_field/meta_field_item.php:20
+msgid "Select Type"
+msgstr ""
+
+#: views/meta_field/meta_field_item.php:31
+msgid "key1=label1|key2=label2"
+msgstr ""
+
+#: views/meta_field/meta_field_item.php:34
+msgid "Drag"
+msgstr ""
+
+#: views/modals/column_profiles.php:16
+msgid ""
+"You can load saved column profile presets through Column Manager. You can "
+"change the columns and save your changes too."
+msgstr ""
+
+#: views/modals/column_profiles.php:19
+msgid "Choose Preset"
+msgstr ""
+
+#: views/modals/column_profiles.php:42
+msgid "Search"
+msgstr ""
+
+#: views/modals/column_profiles.php:43
+msgid "Search Column ..."
+msgstr ""
+
+#: views/modals/column_profiles.php:76
+msgid "Fields from certain third-party plugins"
+msgstr ""
+
+#: views/modals/column_profiles.php:103
+msgid "Apply To Table"
+msgstr ""
+
+#: views/modals/column_profiles.php:113
+msgid "Update selected preset"
+msgstr ""
+
+#: views/modals/column_profiles.php:116
+msgid "Save as new preset"
+msgstr ""
+
+#: views/modals/duplicate_item.php:6 views/navigation/buttons.php:36
+msgid "Duplicate"
+msgstr ""
+
+#: views/modals/duplicate_item.php:15
+msgid "Enter how many item(s) to Duplicate!"
+msgstr ""
+
+#: views/modals/duplicate_item.php:17 views/modals/new_item.php:15
+msgid "Number ..."
+msgstr ""
+
+#: views/modals/duplicate_item.php:23
+msgid "Start Duplicate"
+msgstr ""
+
+#: views/modals/file.php:6
+msgid "Select File"
+msgstr ""
+
+#: views/modals/file.php:16
+msgid "Choose File"
+msgstr ""
+
+#: views/modals/file.php:18
+msgid "Clear"
+msgstr ""
+
+#: views/modals/filter_profile_item.php:8
+msgid "Use it constantly"
+msgstr ""
+
+#: views/modals/filter_profiles.php:6
+msgid "Filter Profiles"
+msgstr ""
+
+#: views/modals/filter_profiles.php:20
+msgid "Use Always"
+msgstr ""
+
+#: views/modals/image.php:6
+msgid "Image Edit"
+msgstr ""
+
+#: views/modals/image.php:27
+msgid "Remove Image"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:6
+msgid "Calculator"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:16
+msgid "replace"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:18
+msgid "Enter Value ..."
+msgstr ""
+
+#: views/modals/numeric_calculator.php:18
+msgid "Value"
+msgstr ""
+
+#: views/modals/text_editor.php:6
+msgid "Content Edit"
+msgstr ""
+
+#: views/navigation/buttons.php:2
+msgid "Filter"
+msgstr ""
+
+#: views/navigation/buttons.php:8
+msgid "Select Post type"
+msgstr ""
+
+#: views/navigation/buttons.php:15
+msgid "Quick Search"
+msgstr ""
+
+#: views/navigation/buttons.php:22
+msgid "Bulk Edit"
+msgstr ""
+
+#: views/navigation/buttons.php:28
+msgid "Bind Edit"
+msgstr ""
+
+#: views/navigation/buttons.php:42
+msgid "Reload"
+msgstr ""
+
+#: views/navigation/buttons.php:62
+msgid "Move to trash"
+msgstr ""
+
+#: views/navigation/buttons.php:68
+msgid "Permanently"
+msgstr ""
+
+#: views/navigation/buttons.php:74
+msgid "Delete All Posts"
+msgstr ""
+
+#: views/navigation/buttons.php:81
+msgid "Column Profile"
+msgstr ""
+
+#: views/navigation/buttons.php:87
+msgid "Filter Profile"
+msgstr ""
+
+#: views/navigation/buttons.php:99
+msgid "Meta fields"
+msgstr ""
+
+#: views/navigation/buttons.php:119
+msgid "Undo"
+msgstr ""
+
+#: views/navigation/buttons.php:125
+msgid "Redo"
+msgstr ""
+
+#: views/navigation/buttons.php:138 views/settings/main.php:6
+msgid "Settings"
+msgstr ""
+
+#: views/navigation/buttons.php:144
+msgid "Reset Filter"
+msgstr ""
+
+#: views/navigation/buttons.php:158
+msgid "Restore Selected Items"
+msgstr ""
+
+#: views/navigation/buttons.php:164
+msgid "Restore All"
+msgstr ""
+
+#: views/navigation/buttons.php:170
+msgid "Delete Permanently"
+msgstr ""
+
+#: views/navigation/buttons.php:176
+msgid "Empty Trash"
+msgstr ""
+
+#: views/settings/main.php:19
+msgid "You can set bulk editor settings"
+msgstr ""
+
+#: views/settings/main.php:22
+msgid "Count Per Page"
+msgstr ""
+
+#: views/settings/main.php:38
+msgid "Default Sort By"
+msgstr ""
+
+#: views/settings/main.php:49
+msgid "Default Sort"
+msgstr ""
+
+#: views/settings/main.php:52
+msgid "ASC"
+msgstr ""
+
+#: views/settings/main.php:55
+msgid "DESC"
+msgstr ""
+
+#: views/settings/main.php:60
+msgid "Close popup after applying"
+msgstr ""
+
+#: views/settings/main.php:71
+msgid "Sticky 'ID' & 'Title' Columns"
+msgstr ""
+
+#: views/settings/main.php:82
+msgid "Display Columns Label"
+msgstr ""
+
+#: views/settings/main.php:85
+msgid "Completely"
+msgstr ""
+
+#: views/settings/main.php:88
+msgid "In short"
+msgstr ""
+
+#: views/settings/main.php:93
+msgid "Keep filled data in bulk edit form"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "iThemeland Wordpress Bulk Posts Editing Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.ithemelandco.com/Plugins/Pro-Bulk-Editing/wordpress-posts-bulk-"
+"editing-lite"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Editing Date in WordPress is very painful. Be professionals with managing "
+"data in the reliable and flexible way by Wordpress Bulk Post Editor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemelandco"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.ithemelandco.com"
+msgstr ""

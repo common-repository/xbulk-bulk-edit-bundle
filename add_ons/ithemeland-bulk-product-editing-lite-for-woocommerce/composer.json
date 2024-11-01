@@ -1,0 +1,17 @@
+{
+    "name": "ithemeland/ithemeland-bulk-product-editing-lite-for-woocommerce",
+    "authors": [
+        {
+            "name": "iThemeland",
+            "email": "info@ithemelandco.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wcbel\\classes\\": "classes/"
+        }
+    },
+    "require": {
+        "khanhicetea/twigeval": "^1.4"
+    }
+}

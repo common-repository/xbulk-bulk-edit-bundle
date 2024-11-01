@@ -1,0 +1,1495 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bulk Edit Free\n"
+"POT-Creation-Date: 2020-04-10 22:08+0430\n"
+"PO-Revision-Date: 2020-04-10 22:08+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-bulk-edit-free.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/bootstrap/WCBEF.php:54
+msgid "Woo Bulk Editor"
+msgstr ""
+
+#: classes/controllers/WCBEF_Ajax.php:110
+#: classes/controllers/WCBEF_Ajax.php:250
+#: classes/controllers/WCBEF_Ajax.php:773
+#: classes/controllers/WCBEF_Ajax.php:795
+#: classes/controllers/WCBEF_Ajax.php:972
+#: classes/controllers/WCBEF_Ajax.php:1002
+#: classes/controllers/WCBEF_Post.php:77
+msgid "Success !"
+msgstr ""
+
+#: classes/helpers/Columns.php:181 classes/helpers/Columns.php:182
+#: classes/helpers/Columns.php:253 classes/helpers/Columns.php:254
+#: classes/helpers/Columns.php:307 classes/helpers/Columns.php:308
+#: classes/repositories/Column.php:103
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/helpers/Columns.php:190 classes/helpers/Columns.php:191
+#: classes/helpers/Columns.php:316 classes/helpers/Columns.php:317
+#: classes/repositories/Column.php:121 views/bulk_edit/bulk_edit_form.php:70
+#: views/bulk_edit/columns_modals/new_product_attribute.php:23
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:29
+msgid "Description"
+msgstr ""
+
+#: classes/helpers/Columns.php:199 classes/helpers/Columns.php:200
+#: views/bulk_edit/bulk_edit_form.php:341 views/bulk_edit/filter_form.php:184
+#: views/settings/main.php:40
+msgid "Manage Stock"
+msgstr ""
+
+#: classes/helpers/Columns.php:209 classes/helpers/Columns.php:210
+#: classes/helpers/Columns.php:271 classes/helpers/Columns.php:272
+#: views/bulk_edit/bulk_edit_form.php:214 views/bulk_edit/filter_form.php:140
+#: views/bulk_edit/variable.php:10
+msgid "Regular Price"
+msgstr ""
+
+#: classes/helpers/Columns.php:219 classes/helpers/Columns.php:220
+#: classes/helpers/Columns.php:291 classes/helpers/Columns.php:292
+#: classes/helpers/Columns.php:334 classes/helpers/Columns.php:335
+#: classes/repositories/Column.php:133
+msgid "Status"
+msgstr ""
+
+#: classes/helpers/Columns.php:229 classes/helpers/Columns.php:230
+#: classes/helpers/Columns.php:344 classes/helpers/Columns.php:345
+msgid "Post Published"
+msgstr ""
+
+#: classes/helpers/Columns.php:238 classes/helpers/Columns.php:239
+#: views/bulk_edit/bulk_edit_form.php:164 views/bulk_edit/filter_form.php:93
+msgid "Categories"
+msgstr ""
+
+#: classes/helpers/Columns.php:262 classes/helpers/Columns.php:263
+#: classes/repositories/Column.php:109 views/bulk_edit/bulk_edit_form.php:155
+msgid "Gallery"
+msgstr ""
+
+#: classes/helpers/Columns.php:281 classes/helpers/Columns.php:282
+#: views/bulk_edit/bulk_edit_form.php:236 views/bulk_edit/filter_form.php:145
+#: views/bulk_edit/variable.php:11
+msgid "Sale Price"
+msgstr ""
+
+#: classes/helpers/Columns.php:325 classes/helpers/Columns.php:326
+#: classes/repositories/Column.php:127 views/bulk_edit/bulk_edit_form.php:80
+msgid "Short Description"
+msgstr ""
+
+#: classes/helpers/Columns.php:353 classes/helpers/Columns.php:354
+#: classes/repositories/Column.php:248 views/bulk_edit/variable.php:5
+#: views/settings/main.php:37
+msgid "SKU"
+msgstr ""
+
+#: classes/helpers/Operator.php:12 classes/helpers/Operator.php:23
+msgid "Append"
+msgstr ""
+
+#: classes/helpers/Operator.php:13
+msgid "Prepend"
+msgstr ""
+
+#: classes/helpers/Operator.php:14
+msgid "New"
+msgstr ""
+
+#: classes/helpers/Operator.php:15 classes/helpers/Operator.php:25
+#: views/bulk_edit/filter_profile_item.php:18
+#: views/bulk_edit/top_navigation.php:42 views/column_manager/main.php:42
+#: views/history/history_items.php:39
+msgid "Delete"
+msgstr ""
+
+#: classes/helpers/Operator.php:16 classes/helpers/Operator.php:24
+msgid "Replace"
+msgstr ""
+
+#: classes/helpers/Operator.php:32
+msgid "Set New"
+msgstr ""
+
+#: classes/helpers/Operator.php:33
+msgid "Clear Value"
+msgstr ""
+
+#: classes/helpers/Operator.php:34
+msgid "Formula"
+msgstr ""
+
+#: classes/helpers/Operator.php:35
+msgid "Increase by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:36
+msgid "Decrease by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:37
+msgid "Increase by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:38
+msgid "Decrease by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:45
+msgid "Increase by value (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:46
+msgid "Increase by % (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:53
+msgid "Decrease by value (From regular)"
+msgstr ""
+
+#: classes/helpers/Operator.php:54
+msgid "Decrease by % (From regular)"
+msgstr ""
+
+#: classes/repositories/Column.php:97
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:23
+msgid "Parent"
+msgstr ""
+
+#: classes/repositories/Column.php:115
+#: views/bulk_edit/columns_modals/new_product_attribute.php:19
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:19
+msgid "Slug"
+msgstr ""
+
+#: classes/repositories/Column.php:140 views/bulk_edit/bulk_edit_form.php:376
+#: views/bulk_edit/filter_form.php:213
+msgid "Product Type"
+msgstr ""
+
+#: classes/repositories/Column.php:147 views/bulk_edit/bulk_edit_form.php:415
+#: views/bulk_edit/filter_form.php:77
+msgid "Product URL"
+msgstr ""
+
+#: classes/repositories/Column.php:153 views/bulk_edit/bulk_edit_form.php:420
+msgid "Button Text"
+msgstr ""
+
+#: classes/repositories/Column.php:159 views/bulk_edit/bulk_edit_form.php:129
+#: views/bulk_edit/filter_form.php:267
+msgid "Catalog Visibility"
+msgstr ""
+
+#: classes/repositories/Column.php:166 views/bulk_edit/bulk_edit_form.php:383
+#: views/bulk_edit/filter_form.php:235
+msgid "Featured"
+msgstr ""
+
+#: classes/repositories/Column.php:172 views/settings/main.php:31
+msgid "Regular price"
+msgstr ""
+
+#: classes/repositories/Column.php:179 views/settings/main.php:34
+msgid "Sale price"
+msgstr ""
+
+#: classes/repositories/Column.php:186
+msgid "Sale time from"
+msgstr ""
+
+#: classes/repositories/Column.php:193
+msgid "Sale time to"
+msgstr ""
+
+#: classes/repositories/Column.php:200
+msgid "Grouped Products"
+msgstr ""
+
+#: classes/repositories/Column.php:206 views/bulk_edit/bulk_edit_form.php:398
+#: views/bulk_edit/filter_form.php:242
+msgid "Downloadable"
+msgstr ""
+
+#: classes/repositories/Column.php:212
+msgid "Downloadable Files"
+msgstr ""
+
+#: classes/repositories/Column.php:218
+msgid "Download limit"
+msgstr ""
+
+#: classes/repositories/Column.php:224
+msgid "Download expiry"
+msgstr ""
+
+#: classes/repositories/Column.php:230
+msgid "Tax status"
+msgstr ""
+
+#: classes/repositories/Column.php:241
+msgid "Tax class"
+msgstr ""
+
+#: classes/repositories/Column.php:255
+msgid "Manage stock"
+msgstr ""
+
+#: classes/repositories/Column.php:262
+msgid "Stock quantity"
+msgstr ""
+
+#: classes/repositories/Column.php:269
+msgid "Stock status"
+msgstr ""
+
+#: classes/repositories/Column.php:277
+msgid "Allow backorders"
+msgstr ""
+
+#: classes/repositories/Column.php:284
+msgid "Sold individually"
+msgstr ""
+
+#: classes/repositories/Column.php:290 views/bulk_edit/bulk_edit_form.php:328
+#: views/bulk_edit/filter_form.php:177
+msgid "Weight"
+msgstr ""
+
+#: classes/repositories/Column.php:297 views/bulk_edit/bulk_edit_form.php:317
+#: views/bulk_edit/filter_form.php:172
+msgid "Length"
+msgstr ""
+
+#: classes/repositories/Column.php:304 views/bulk_edit/bulk_edit_form.php:295
+#: views/bulk_edit/filter_form.php:162
+msgid "Width"
+msgstr ""
+
+#: classes/repositories/Column.php:311 views/bulk_edit/bulk_edit_form.php:306
+#: views/bulk_edit/filter_form.php:167
+msgid "Height"
+msgstr ""
+
+#: classes/repositories/Column.php:318
+msgid "Shipping class"
+msgstr ""
+
+#: classes/repositories/Column.php:325 views/bulk_edit/bulk_edit_form.php:425
+msgid "Upsells"
+msgstr ""
+
+#: classes/repositories/Column.php:331
+msgid "Cross-sells"
+msgstr ""
+
+#: classes/repositories/Column.php:337
+msgid "Purchase note"
+msgstr ""
+
+#: classes/repositories/Column.php:343
+msgid "Menu order"
+msgstr ""
+
+#: classes/repositories/Column.php:349
+msgid "Reviews allowed"
+msgstr ""
+
+#: classes/repositories/Column.php:355 views/bulk_edit/bulk_edit_form.php:391
+msgid "Virtual"
+msgstr ""
+
+#: classes/repositories/Column.php:361 views/bulk_edit/bulk_edit_form.php:141
+#: views/history/main.php:23 views/history/main.php:74
+msgid "Author"
+msgstr ""
+
+#: classes/repositories/Column.php:368
+msgid "Total sales"
+msgstr ""
+
+#: classes/repositories/Column.php:375
+msgid "Review count"
+msgstr ""
+
+#: classes/repositories/Column.php:382
+msgid "Average rating"
+msgstr ""
+
+#: classes/repositories/Column.php:389
+msgid "Date Published"
+msgstr ""
+
+#: classes/repositories/History.php:17
+msgid "Bulk Operation"
+msgstr ""
+
+#: classes/repositories/History.php:18
+msgid "Inline Operation"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:31
+msgid "TextInput"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:32
+msgid "TextArea"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:33
+msgid "Checkbox"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:34
+msgid "Array"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:35
+msgid "Calendar"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:42
+msgid "String"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:43
+msgid "Number"
+msgstr ""
+
+#: classes/repositories/Search.php:53
+msgid "All Products"
+msgstr ""
+
+#: views/alerts/wc_required.php:5
+msgid "WooCommerce Plugin is Inactive !"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:6
+msgid "Bulk Edit Form"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:17 views/bulk_edit/filter_form.php:5
+msgid "General"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:20 views/bulk_edit/filter_form.php:8
+msgid "Categories/Tags/Taxonomies"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:23 views/bulk_edit/filter_form.php:11
+msgid "Pricing"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:24 views/bulk_edit/filter_form.php:12
+msgid "Shipping"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:25 views/bulk_edit/filter_form.php:13
+msgid "Stock"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:26 views/bulk_edit/filter_form.php:14
+msgid "Type"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:27 views/bulk_edit/filter_form.php:15
+msgid "Custom Fields"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:35 views/bulk_edit/filter_form.php:31
+#: views/bulk_edit/products.php:32
+msgid "Product Title"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:42
+msgid "Remove Duplicate"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:44 views/bulk_edit/filter_form.php:39
+msgid "Product Title ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:50 views/bulk_edit/filter_form.php:61
+msgid "Product Slug"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:52 views/bulk_edit/bulk_edit_form.php:62
+#: views/bulk_edit/bulk_edit_form.php:72 views/bulk_edit/bulk_edit_form.php:82
+#: views/bulk_edit/bulk_edit_form.php:92 views/bulk_edit/bulk_edit_form.php:106
+#: views/bulk_edit/bulk_edit_form.php:113
+#: views/bulk_edit/bulk_edit_form.php:120
+#: views/bulk_edit/bulk_edit_form.php:131
+#: views/bulk_edit/bulk_edit_form.php:143
+#: views/bulk_edit/bulk_edit_form.php:202
+#: views/bulk_edit/bulk_edit_form.php:205
+#: views/bulk_edit/bulk_edit_form.php:215
+#: views/bulk_edit/bulk_edit_form.php:237
+#: views/bulk_edit/bulk_edit_form.php:270
+#: views/bulk_edit/bulk_edit_form.php:286
+#: views/bulk_edit/bulk_edit_form.php:318
+#: views/bulk_edit/bulk_edit_form.php:343
+#: views/bulk_edit/bulk_edit_form.php:385
+#: views/bulk_edit/bulk_edit_form.php:393
+#: views/bulk_edit/bulk_edit_form.php:400
+#: views/bulk_edit/bulk_edit_form.php:426
+#: views/bulk_edit/bulk_edit_form.php:437
+#: views/bulk_edit/bulk_edit_form.php:474
+#: views/bulk_edit/bulk_edit_form.php:475 views/bulk_edit/filter_form.php:186
+#: views/bulk_edit/filter_form.php:199 views/bulk_edit/filter_form.php:206
+#: views/bulk_edit/filter_form.php:215 views/bulk_edit/filter_form.php:226
+#: views/bulk_edit/filter_form.php:237 views/bulk_edit/filter_form.php:244
+#: views/bulk_edit/filter_form.php:251 views/bulk_edit/filter_form.php:258
+#: views/bulk_edit/filter_form.php:269 views/bulk_edit/filter_form.php:299
+#: views/bulk_edit/filter_form.php:300 views/history/main.php:14
+#: views/history/main.php:25
+msgid "Select"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:54 views/bulk_edit/filter_form.php:65
+msgid "Product Slug ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:60 views/bulk_edit/filter_form.php:69
+msgid "Product SKU"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:64 views/bulk_edit/filter_form.php:73
+msgid "Product SKU ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:74
+#: views/bulk_edit/columns_modals/new_product_attribute.php:24
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:30
+msgid "Description ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:84
+msgid "Short Description ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:90
+msgid "Purchase Note"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:94
+msgid "Purchase Note ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:99 views/bulk_edit/filter_form.php:274
+#: views/bulk_edit/variable.php:6
+msgid "Menu Order"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:100
+msgid "Menu Order ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:104 views/bulk_edit/filter_form.php:249
+msgid "Sold Individually"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:111
+msgid "Enable Reviews"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:118 views/bulk_edit/filter_form.php:224
+msgid "Product Status"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:136 views/history/main.php:38
+msgid "Date"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:137
+msgid "Date ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:148
+msgid "Image"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:150
+#: views/bulk_edit/bulk_edit_form.php:157
+msgid "Choose Image"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:165
+#: views/bulk_edit/bulk_edit_form.php:182
+#: views/bulk_edit/bulk_edit_form.php:455
+#: views/bulk_edit/bulk_edit_form.php:465
+#: views/bulk_edit/columns_modals/numeric_calculator.php:13
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:14
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:14
+#: views/bulk_edit/filter_form.php:32 views/bulk_edit/filter_form.php:43
+#: views/bulk_edit/filter_form.php:54 views/bulk_edit/filter_form.php:62
+#: views/bulk_edit/filter_form.php:70 views/bulk_edit/filter_form.php:78
+#: views/bulk_edit/filter_form.php:94 views/bulk_edit/filter_form.php:109
+#: views/bulk_edit/filter_form.php:126 views/bulk_edit/filter_form.php:287
+msgid "Select Operator"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:181 views/bulk_edit/filter_form.php:108
+msgid "Tags"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:227
+msgid "Regular Price ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:228
+msgid "Select round item"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:229
+#: views/bulk_edit/bulk_edit_form.php:251
+msgid "Round Item"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:258
+msgid "Sale Date From"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:259
+msgid "Sale Date From ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:263
+msgid "Sale Date To"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:264
+msgid "Sale Date To ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:268
+msgid "Tax Status"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:275
+msgid "Tax Class"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:284
+msgid "Shipping Class"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:303
+msgid "Width ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:314
+msgid "Height ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:325
+msgid "Length ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:336
+msgid "Weight ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:344
+#: views/bulk_edit/bulk_edit_form.php:386
+#: views/bulk_edit/bulk_edit_form.php:476 views/bulk_edit/filter_form.php:187
+#: views/bulk_edit/filter_form.php:301 views/settings/main.php:65
+#: views/settings/main.php:87
+msgid "Yes"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:345
+#: views/bulk_edit/bulk_edit_form.php:387
+#: views/bulk_edit/bulk_edit_form.php:477 views/bulk_edit/filter_form.php:188
+#: views/bulk_edit/filter_form.php:302 views/settings/main.php:68
+#: views/settings/main.php:90
+msgid "No"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:349 views/bulk_edit/filter_form.php:197
+#: views/settings/main.php:46
+msgid "Stock Status"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:356 views/bulk_edit/filter_form.php:192
+#: views/settings/main.php:43
+msgid "Stock Quantity"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:364
+msgid "Stock Quantity ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:367
+msgid "Allow Backorders"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:405
+msgid "Download Limit"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:406
+msgid "Download Limit ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:410
+msgid "Download Expiry"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:411
+msgid "Download Expiry ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:421
+msgid "Button Text ..."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:436
+msgid "Cross-Sells"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:487 views/bulk_edit/filter_form.php:312
+msgid "Not added custom field !"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:497
+msgid "Do Bulk Edit"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:500
+msgid "Reset Form"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:6 views/column_manager/main.php:13
+#: views/history/main.php:64
+msgid "Column Profiles"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:16
+msgid ""
+"You can load saved column profile presets through Column Manager. You can "
+"change the columns and save your changes too."
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:19
+msgid "Choose Preset"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:32 views/bulk_edit/products.php:17
+#: views/column_manager/main.php:63
+msgid "Select All"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:59
+msgid "Apply To Table"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:63 views/settings/main.php:100
+msgid "Save Changes"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:69
+msgid "Update selected preset"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:72
+msgid "Save as new preset"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:78
+msgid "Search"
+msgstr ""
+
+#: views/bulk_edit/column_profiles.php:79
+msgid "Search Column ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/file_item.php:3
+msgid "Drag"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/file_item.php:8
+msgid "Choose File"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/gallery.php:7
+msgid "Gallery Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/gallery.php:38
+#: views/bulk_edit/columns_modals/numeric_calculator.php:23
+#: views/bulk_edit/columns_modals/product_attribute.php:46
+#: views/bulk_edit/columns_modals/product_taxonomy.php:32
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:43
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:43
+#: views/bulk_edit/columns_modals/select_files.php:19
+#: views/bulk_edit/columns_modals/select_products.php:26
+#: views/bulk_edit/columns_modals/text_editor.php:18
+#: views/bulk_edit/columns_modals/thumbnail.php:27
+msgid "Apply Changes"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:6
+msgid "New Product Attribute"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:15
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:15
+msgid "Name"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:16
+msgid "Attribute Name ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:20
+msgid "Attribute Slug ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:31
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:37
+#: views/bulk_edit/new_product.php:22
+msgid "Create"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:6
+msgid "New Product Taxonomy"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:16
+msgid "Taxonomy Name ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:20
+msgid "Taxonomy Slug ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:25
+msgid "None"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/numeric_calculator.php:6
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:7
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:7
+msgid "Calculator"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/numeric_calculator.php:16
+msgid "replace"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/numeric_calculator.php:18
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:19
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:19
+msgid "Enter Value ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/numeric_calculator.php:18
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:19
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:19
+msgid "Value"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:7
+msgid "Attribute Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:14
+#: views/bulk_edit/columns_modals/product_taxonomy.php:14
+msgid "Type for search"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:14
+msgid "Type for search ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:49
+#: views/bulk_edit/columns_modals/product_taxonomy.php:35
+msgid "Add New"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_taxonomy.php:7
+msgid "Taxonomy Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:20
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:20
+msgid "Select Type"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:24
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:24
+msgid "Rounding"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:25
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:25
+msgid "no rounding"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/select_files.php:6
+msgid "Select Files"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/select_files.php:13
+msgid "Add File"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/select_products.php:6
+msgid "Select Products"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/text_editor.php:6
+msgid "Content Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/thumbnail.php:7
+msgid "Image Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/thumbnail.php:30
+msgid "Remove Image"
+msgstr ""
+
+#: views/bulk_edit/duplicate.php:6
+msgid "Product Duplicate"
+msgstr ""
+
+#: views/bulk_edit/duplicate.php:15
+msgid "Enter how many product(s) to Duplicate!"
+msgstr ""
+
+#: views/bulk_edit/duplicate.php:17 views/bulk_edit/new_product.php:17
+msgid "Number ..."
+msgstr ""
+
+#: views/bulk_edit/duplicate.php:23
+msgid "Start Duplicate"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:20
+msgid "Product ID(s)"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:22 views/bulk_edit/filter_form.php:34
+#: views/bulk_edit/filter_form.php:45 views/bulk_edit/filter_form.php:289
+#: views/bulk_edit/top_navigation.php:103
+msgid "Exact"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:24
+msgid "for example: 1,2,3 or 1-10 or 1,2,3|10-20"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:27
+msgid "Only Parent Products"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:33 views/bulk_edit/filter_form.php:44
+#: views/bulk_edit/filter_form.php:55 views/bulk_edit/filter_form.php:63
+#: views/bulk_edit/filter_form.php:71 views/bulk_edit/filter_form.php:79
+#: views/bulk_edit/filter_form.php:288 views/bulk_edit/top_navigation.php:100
+msgid "Like"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:35 views/bulk_edit/filter_form.php:46
+#: views/bulk_edit/filter_form.php:290 views/bulk_edit/top_navigation.php:106
+msgid "Not"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:36 views/bulk_edit/filter_form.php:47
+#: views/bulk_edit/filter_form.php:291 views/bulk_edit/top_navigation.php:109
+msgid "Begin"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:37 views/bulk_edit/filter_form.php:48
+#: views/bulk_edit/filter_form.php:292 views/bulk_edit/top_navigation.php:112
+msgid "End"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:42
+msgid "Product Content"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:50
+msgid "Product Content ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:53
+msgid "Product Excerpt"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:57
+msgid "Product Excerpt ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:81
+msgid "Product URL ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:85
+msgid "Product Date"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:86
+msgid "Product Date From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:87
+msgid "Product Date To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:95 views/bulk_edit/filter_form.php:110
+#: views/bulk_edit/filter_form.php:127
+msgid "OR"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:96 views/bulk_edit/filter_form.php:111
+#: views/bulk_edit/filter_form.php:128
+msgid "AND"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:97 views/bulk_edit/filter_form.php:112
+#: views/bulk_edit/filter_form.php:129
+msgid "NOT IN"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:141
+msgid "Regular Price From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:142
+msgid "Regular Price To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:146
+msgid "Sale Price From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:147
+msgid "Sale Price To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:150
+msgid "Sale Price Date From"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:151
+msgid "Sale Price Date From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:155
+msgid "Sale Price Date To"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:156
+msgid "Sale Price Date To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:163
+msgid "Width From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:164
+msgid "Width To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:168
+msgid "Height From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:169
+msgid "Height To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:173
+msgid "Length From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:174
+msgid "Length To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:178
+msgid "Weight From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:179
+msgid "Weight To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:193
+msgid "Stock Quantity From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:194
+msgid "Stock Quantity To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:204
+msgid "Backorders"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:256
+msgid "By Author"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:275
+msgid "Menu Order From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:276
+msgid "Menu Order To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:296 views/bulk_edit/filter_form.php:305
+msgid "From"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:296 views/bulk_edit/filter_form.php:305
+#: views/history/main.php:39
+msgid "From ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:297 views/bulk_edit/filter_form.php:306
+msgid "To"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:297 views/bulk_edit/filter_form.php:306
+#: views/history/main.php:40
+msgid "To ..."
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:320
+msgid "Get products"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:323 views/history/main.php:51
+msgid "Reset Filters"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:329
+msgid "Save Profile"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:339
+msgid "Filter Form"
+msgstr ""
+
+#: views/bulk_edit/filter_profile_item.php:8
+msgid "Use it constantly"
+msgstr ""
+
+#: views/bulk_edit/filter_profiles.php:6 views/bulk_edit/top_navigation.php:17
+msgid "Filter Profiles"
+msgstr ""
+
+#: views/bulk_edit/filter_profiles.php:18 views/column_manager/main.php:19
+msgid "Profile Name"
+msgstr ""
+
+#: views/bulk_edit/filter_profiles.php:19 views/column_manager/main.php:20
+#: views/history/main.php:75
+msgid "Date Modified"
+msgstr ""
+
+#: views/bulk_edit/filter_profiles.php:20
+msgid "Use Always"
+msgstr ""
+
+#: views/bulk_edit/filter_profiles.php:21 views/column_manager/main.php:21
+#: views/history/main.php:76
+msgid "Actions"
+msgstr ""
+
+#: views/bulk_edit/new_product.php:6 views/bulk_edit/top_navigation.php:32
+msgid "New Product"
+msgstr ""
+
+#: views/bulk_edit/new_product.php:15
+msgid "Enter how many new product(s) to create!"
+msgstr ""
+
+#: views/bulk_edit/products.php:18 views/bulk_edit/top_navigation.php:95
+#: views/bulk_edit/variable.php:4 views/settings/main.php:25
+msgid "ID"
+msgstr ""
+
+#: views/bulk_edit/products.php:121 views/main.php:3
+msgid "Loading ..."
+msgstr ""
+
+#: views/bulk_edit/products.php:146
+msgid "No Data Available!"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:5 views/main.php:30
+msgid "Bulk Edit"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:8
+msgid "Variations"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:14
+msgid "Column Profile"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:21
+msgid "Reset Filter"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:27
+msgid "Undo"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:30
+msgid "Redo"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:37
+msgid "Unselect"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:38
+msgid "Duplicate"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:48
+msgid "Move to trash"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:51
+msgid "Permanently"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:62
+msgid "Variation"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:67
+msgid "Select All Variations"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:71
+msgid "Bind Edit"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:89
+msgid "Quick Search ..."
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:92 views/bulk_edit/variable.php:3
+#: views/settings/main.php:28
+msgid "Title"
+msgstr ""
+
+#: views/bulk_edit/variable.php:1
+msgid "Select Variable"
+msgstr ""
+
+#: views/bulk_edit/variable.php:2
+msgid "Variable"
+msgstr ""
+
+#: views/bulk_edit/variable.php:7
+msgid "Parent ID"
+msgstr ""
+
+#: views/bulk_edit/variable.php:8
+msgid "Parent Title"
+msgstr ""
+
+#: views/bulk_edit/variable.php:9
+msgid "Parent SKU"
+msgstr ""
+
+#: views/bulk_edit/variation_item.php:10
+msgid "Set as default"
+msgstr ""
+
+#: views/bulk_edit/variations.php:6
+msgid "Variation Bulk Edit"
+msgstr ""
+
+#: views/bulk_edit/variations.php:18
+msgid "Set Variation"
+msgstr ""
+
+#: views/bulk_edit/variations.php:20
+msgid "Delete Variation"
+msgstr ""
+
+#: views/bulk_edit/variations.php:21
+msgid "Attach Variation"
+msgstr ""
+
+#: views/bulk_edit/variations.php:29
+msgid "Product Attributes"
+msgstr ""
+
+#: views/bulk_edit/variations.php:39
+msgid "Select Attributes"
+msgstr ""
+
+#: views/bulk_edit/variations.php:46
+msgid "How To Create Variations ?"
+msgstr ""
+
+#: views/bulk_edit/variations.php:49
+msgid "All Combinations"
+msgstr ""
+
+#: views/bulk_edit/variations.php:53
+msgid "Individual Combination"
+msgstr ""
+
+#: views/bulk_edit/variations.php:62
+msgid "Add"
+msgstr ""
+
+#: views/bulk_edit/variations.php:67
+msgid "Generate"
+msgstr ""
+
+#: views/bulk_edit/variations.php:73
+msgid "Current Variations"
+msgstr ""
+
+#: views/bulk_edit/variations.php:82
+msgid "Do Bulk Variations"
+msgstr ""
+
+#: views/column_manager/main.php:4
+msgid ""
+"Mange columns of table. You can Create your customize presets and use them "
+"in column profile section."
+msgstr ""
+
+#: views/column_manager/main.php:38
+msgid "Edit"
+msgstr ""
+
+#: views/column_manager/main.php:57
+msgid "Create New Profile"
+msgstr ""
+
+#: views/column_manager/main.php:59
+msgid "Search Field"
+msgstr ""
+
+#: views/column_manager/main.php:59
+msgid "Search Field ..."
+msgstr ""
+
+#: views/column_manager/main.php:94
+msgid "Save Preset"
+msgstr ""
+
+#: views/column_manager/main.php:98
+msgid "Please add your columns here"
+msgstr ""
+
+#: views/history/history_items.php:35
+msgid "Revert"
+msgstr ""
+
+#: views/history/main.php:4
+msgid "List of your changes and possible to roll back to the previous data"
+msgstr ""
+
+#: views/history/main.php:12
+msgid "Operation"
+msgstr ""
+
+#: views/history/main.php:34 views/import_export/main.php:26
+msgid "Fields"
+msgstr ""
+
+#: views/history/main.php:47
+msgid "Apply Filters"
+msgstr ""
+
+#: views/history/main.php:58
+msgid "Clear History"
+msgstr ""
+
+#: views/history/main.php:73
+msgid "History Name"
+msgstr ""
+
+#: views/import_export/main.php:4
+msgid "Import/Export products as CSV fiels"
+msgstr ""
+
+#: views/import_export/main.php:15
+msgid "Products"
+msgstr ""
+
+#: views/import_export/main.php:18
+msgid "All Products In Table"
+msgstr ""
+
+#: views/import_export/main.php:22
+msgid "Only Selected products"
+msgstr ""
+
+#: views/import_export/main.php:29
+msgid "All Fields"
+msgstr ""
+
+#: views/import_export/main.php:33
+msgid "Only Visible Fields"
+msgstr ""
+
+#: views/import_export/main.php:37
+msgid "Delimiter"
+msgstr ""
+
+#: views/import_export/main.php:47
+msgid "Export Now"
+msgstr ""
+
+#: views/import_export/main.php:61
+msgid "Import Now"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: views/main.php:7
+msgid "WooCommerce Bulk Edit Free"
+msgstr ""
+
+#: views/main.php:8
+msgid "The insights you need to get the inside edge and defines"
+msgstr ""
+
+#: views/main.php:13
+msgid "Need Help"
+msgstr ""
+
+#: views/main.php:33
+msgid "Column Manager"
+msgstr ""
+
+#: views/main.php:38
+msgid "Meta Fields"
+msgstr ""
+
+#: views/main.php:43
+msgid "History"
+msgstr ""
+
+#: views/main.php:48
+msgid "Import/Export"
+msgstr ""
+
+#: views/main.php:53
+msgid "Settings"
+msgstr ""
+
+#: views/meta_fields/main.php:4
+msgid ""
+"You can add new products meta fields in two ways: 1- Individually 2- Get "
+"from other product."
+msgstr ""
+
+#: views/meta_fields/main.php:11
+msgid "Manually"
+msgstr ""
+
+#: views/meta_fields/main.php:13
+msgid "Enter Meta Key ..."
+msgstr ""
+
+#: views/meta_fields/main.php:20
+msgid "Automatically From product"
+msgstr ""
+
+#: views/meta_fields/main.php:22
+msgid "Enter Product ID ..."
+msgstr ""
+
+#: views/meta_fields/main.php:30
+msgid "Please add your meta key manually <br> OR <br> From another product"
+msgstr ""
+
+#: views/meta_fields/main.php:38
+msgid "Save Fields"
+msgstr ""
+
+#: views/settings/main.php:6
+msgid "You can set bulk editor settings"
+msgstr ""
+
+#: views/settings/main.php:12
+msgid "Count Per Page"
+msgstr ""
+
+#: views/settings/main.php:22
+msgid "Default Sort By"
+msgstr ""
+
+#: views/settings/main.php:51
+msgid "Default Sort"
+msgstr ""
+
+#: views/settings/main.php:54
+msgid "ASC"
+msgstr ""
+
+#: views/settings/main.php:57
+msgid "DESC"
+msgstr ""
+
+#: views/settings/main.php:62
+msgid "Show Quick Search"
+msgstr ""
+
+#: views/settings/main.php:73
+msgid "Search Form Mode"
+msgstr ""
+
+#: views/settings/main.php:76
+msgid "Don't Push Down the Content"
+msgstr ""
+
+#: views/settings/main.php:79
+msgid "Push Down the Content"
+msgstr ""
+
+#: views/settings/main.php:84
+msgid "Sticky ID & Title Columns"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://alikb.ir/woocommerce_bulk_edit_free"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WoCommerce Bulk Edit Free."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ali Koohbor"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://alikb.ir/"
+msgstr ""

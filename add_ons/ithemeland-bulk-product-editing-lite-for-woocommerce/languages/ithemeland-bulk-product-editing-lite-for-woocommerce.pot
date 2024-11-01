@@ -1,0 +1,1972 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: iThemeland Bulk Product Editing Lite For WooCommerce\n"
+"POT-Creation-Date: 2023-06-07 14:53+0330\n"
+"PO-Revision-Date: 2023-06-07 14:53+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ithemeland-bulk-product-editing-lite-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/bootstrap/WCBEL.php:72
+msgid "iT Woo Products"
+msgstr ""
+
+#: classes/bootstrap/WCBEL.php:117
+msgid "Please select one product"
+msgstr ""
+
+#: classes/controllers/WCBEL_Ajax.php:667
+#: classes/controllers/WCBEL_Ajax.php:689
+#: classes/controllers/WCBEL_Ajax.php:702
+#: classes/controllers/WCBEL_Ajax.php:724 classes/controllers/WCBEL_Post.php:84
+#: classes/controllers/WCBEL_Post.php:132
+#: classes/controllers/WCBEL_Post.php:182
+#: classes/controllers/WCBEL_Post.php:198
+#: classes/controllers/WCBEL_Post.php:265
+#: classes/controllers/WCBEL_Post.php:273
+#: classes/controllers/WCBEL_Post.php:287
+#: classes/controllers/WCBEL_Post.php:302
+#: classes/controllers/WCBEL_Post.php:353 classes/helpers/Lang_Helper.php:42
+msgid "Success !"
+msgstr ""
+
+#: classes/controllers/WCBEL_Post.php:311
+msgid "Error ! try again"
+msgstr ""
+
+#: classes/controllers/WCBEL_Post.php:356
+msgid "System Error !"
+msgstr ""
+
+#: classes/controllers/WCBEL_Post.php:360
+msgid "Connection Timeout! Please Try Again"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: classes/controllers/Woocommerce_Bulk_Edit.php:53
+msgid "iThemeland Bulk Product Editing Lite For WooCommerce"
+msgstr ""
+
+#: classes/controllers/Woocommerce_Bulk_Edit.php:152
+msgid "WooCommerce Bulk Product Editing Pro"
+msgstr ""
+
+#: classes/helpers/Generator.php:73
+#: classes/providers/column/ProductColumnProvider.php:460
+#: classes/providers/column/ProductColumnProvider.php:478
+#: classes/repositories/Meta_Field.php:59
+#: classes/repositories/Tab_Repository.php:38
+#: classes/repositories/Tab_Repository.php:427 views/activation/main.php:32
+#: views/bulk_edit/columns_modals/acf_taxonomy_multi_select.php:7
+#: views/bulk_edit/variations.php:36 views/history/main.php:25
+#: views/history/main.php:36
+msgid "Select"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:10
+msgid "Automotive"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:11
+msgid "AdTech and AdNetwork"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:12
+msgid "Agency"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:13
+msgid "B2B Software"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:14
+msgid "B2C Internet Services"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:15
+msgid "Classifieds"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:16
+msgid "Consulting and Market Research"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:17
+msgid "CPG"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:18
+msgid "Education"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:19
+msgid "Education (Student)"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:20
+msgid "Equity Research"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:21
+msgid "Financial Services"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:22
+msgid "Gambling and Gaming"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:23
+msgid "Hedge Funds and Asset Management"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:24
+msgid "Investment Banking"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:25
+msgid "Logistics and Shipping"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:26
+msgid "Payments"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:27
+msgid "Pharma and Healthcare"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:28
+msgid "Private Equity and Venture Capital"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:29
+msgid "Publishers and Media"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:30
+msgid "Public Sector, Non Profit, Fraud and Compliance"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:31
+msgid "Retail and eCommerce"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:32
+msgid "Telecom"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:33
+msgid "Travel"
+msgstr ""
+
+#: classes/helpers/Industry_Helper.php:34
+msgid "Other"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:10
+msgid "Please Select Product !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:11
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:12
+msgid "Yes, I'm sure !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:13
+msgid "Your changes will be applied to all of filtered products. Are you sure?"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:14
+msgid "Duplicate for variations product is disabled!"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:15 views/bulk_edit/variation_item.php:10
+msgid "Set as default"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:16
+msgid ""
+"Some of selected products are not 'Variable' product. Do you want to change "
+"the product type?"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:17
+#: views/bulk_edit/columns_modals/file_item.php:3
+msgid "Drag"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:18
+msgid "variation is required !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:19
+msgid "Select product is required !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:20
+msgid "Select variable product is required !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:21
+msgid "Taxonomy Name is required !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:22
+msgid "Attribute Name is required !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:23
+msgid "Same Case"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:24
+msgid "Ignore Case"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:25
+msgid "Text ..."
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:26 views/bulk_edit/variable.php:1
+msgid "Select Variable"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:27 classes/helpers/Product_Helper.php:234
+#: views/bulk_edit/variable.php:2
+msgid "Variable"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:28 classes/helpers/Product_Helper.php:235
+#: views/bulk_edit/filter_bar.php:8 views/bulk_edit/variable.php:3
+#: views/settings/main.php:41
+msgid "Title"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:29 classes/helpers/Product_Helper.php:236
+#: views/bulk_edit/filter_bar.php:11 views/bulk_edit/variable.php:4
+#: views/data_table/items.php:19 views/settings/main.php:38
+msgid "ID"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:30 classes/helpers/Product_Helper.php:237
+#: classes/repositories/Column.php:516 classes/repositories/Column.php:853
+#: classes/repositories/Column.php:854 classes/repositories/Column.php:1041
+#: classes/repositories/Column.php:1042 views/bulk_edit/variable.php:5
+#: views/settings/main.php:50
+msgid "SKU"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:31 classes/helpers/Product_Helper.php:239
+#: views/bulk_edit/variable.php:7
+msgid "Parent ID"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:32 classes/helpers/Product_Helper.php:240
+#: views/bulk_edit/variable.php:8
+msgid "Parent Title"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:33 classes/helpers/Product_Helper.php:241
+#: views/bulk_edit/variable.php:9
+msgid "Parent SKU"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:34 classes/helpers/Product_Helper.php:242
+#: classes/repositories/Column.php:827 classes/repositories/Column.php:828
+#: classes/repositories/Column.php:989 classes/repositories/Column.php:990
+#: views/bulk_edit/variable.php:10
+msgid "Regular Price"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:35 classes/helpers/Product_Helper.php:243
+#: classes/repositories/Column.php:1002 classes/repositories/Column.php:1003
+#: views/bulk_edit/variable.php:11
+msgid "Sale Price"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:36
+msgid "Please Add Columns !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:37
+msgid "Preset name is required !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:38
+msgid "New Product"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:39
+msgid "Enter how many new product(s) to create!"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:40
+msgid "Product Name ..."
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:41
+msgid "Loading"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:43
+msgid "Products Found"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:44
+msgid "The product has no variations !"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:45
+msgid "Select attribute"
+msgstr ""
+
+#: classes/helpers/Lang_Helper.php:46
+msgid "Not Found!"
+msgstr ""
+
+#: classes/helpers/Operator.php:10 views/navigation/buttons.php:70
+msgid "New"
+msgstr ""
+
+#: classes/helpers/Operator.php:11 classes/helpers/Operator.php:29
+msgid "Append"
+msgstr ""
+
+#: classes/helpers/Operator.php:12
+msgid "Prepend"
+msgstr ""
+
+#: classes/helpers/Operator.php:13 classes/helpers/Operator.php:31
+#: views/column_manager/main.php:49 views/history/history_items.php:58
+#: views/modals/filter_profile_item.php:18 views/navigation/buttons.php:76
+msgid "Delete"
+msgstr ""
+
+#: classes/helpers/Operator.php:14 classes/helpers/Operator.php:30
+msgid "Replace"
+msgstr ""
+
+#: classes/helpers/Operator.php:38
+msgid "Set New"
+msgstr ""
+
+#: classes/helpers/Operator.php:39
+msgid "Clear Value"
+msgstr ""
+
+#: classes/helpers/Operator.php:40
+msgid "Formula"
+msgstr ""
+
+#: classes/helpers/Operator.php:41
+msgid "Increase by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:42
+msgid "Decrease by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:43
+msgid "Increase by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:44
+msgid "Decrease by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:51
+msgid "Increase by value (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:52
+msgid "Increase by % (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:59
+msgid "Decrease by value (From regular)"
+msgstr ""
+
+#: classes/helpers/Operator.php:60
+msgid "Decrease by % (From regular)"
+msgstr ""
+
+#: classes/helpers/Operator.php:67 views/bulk_edit/filter_bar.php:16
+msgid "Like"
+msgstr ""
+
+#: classes/helpers/Operator.php:68 classes/repositories/Tab_Repository.php:943
+#: views/bulk_edit/filter_bar.php:19
+msgid "Exact"
+msgstr ""
+
+#: classes/helpers/Operator.php:69 views/bulk_edit/filter_bar.php:22
+msgid "Not"
+msgstr ""
+
+#: classes/helpers/Operator.php:70 views/bulk_edit/filter_bar.php:25
+msgid "Begin"
+msgstr ""
+
+#: classes/helpers/Operator.php:71 views/bulk_edit/filter_bar.php:28
+msgid "End"
+msgstr ""
+
+#: classes/helpers/Product_Helper.php:238 views/bulk_edit/variable.php:6
+msgid "Menu Order"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:154
+msgid "Delete product"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:161
+msgid "Delete permanently"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:162
+msgid "Restore"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:164
+msgid "View on site"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:165
+msgid "Edit product"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:342
+#: classes/repositories/Tab_Repository.php:219
+#: classes/repositories/Tab_Repository.php:235
+#: classes/repositories/Tab_Repository.php:557
+#: classes/repositories/Tab_Repository.php:634
+#: classes/repositories/Tab_Repository.php:647
+#: classes/repositories/Tab_Repository.php:663
+#: classes/repositories/Tab_Repository.php:871
+#: classes/repositories/Tab_Repository.php:883
+#: classes/repositories/Tab_Repository.php:1222
+#: classes/repositories/Tab_Repository.php:1294
+#: classes/repositories/Tab_Repository.php:1307
+#: classes/repositories/Tab_Repository.php:1320
+#: classes/repositories/Tab_Repository.php:1567
+#: classes/repositories/Tab_Repository.php:1709 views/settings/main.php:78
+#: views/settings/main.php:89 views/settings/main.php:111
+#: views/settings/main.php:125 views/settings/main.php:136
+msgid "Yes"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:406
+msgid "Same as parent"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:516
+msgid "Apply"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:581
+msgid "Badges"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:586
+msgid "No badge"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:607
+msgid "iThemeland badge"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:612
+msgid "Custom Tabs"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:617
+#: views/import_export/main.php:36
+msgid "All Fields"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:622
+msgid "Set Price"
+msgstr ""
+
+#: classes/providers/column/ProductColumnProvider.php:627
+msgid "Select Roles"
+msgstr ""
+
+#: classes/repositories/Column.php:94
+msgid "Product Title"
+msgstr ""
+
+#: classes/repositories/Column.php:297 classes/repositories/Column.php:1219
+#: classes/repositories/Column.php:1220
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:23
+msgid "Parent"
+msgstr ""
+
+#: classes/repositories/Column.php:305
+msgid "Thumb"
+msgstr ""
+
+#: classes/repositories/Column.php:314 classes/repositories/Column.php:919
+#: classes/repositories/Column.php:920
+#: classes/repositories/Tab_Repository.php:312
+msgid "Gallery"
+msgstr ""
+
+#: classes/repositories/Column.php:323
+#: views/bulk_edit/columns_modals/new_product_attribute.php:19
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:19
+msgid "Slug"
+msgstr ""
+
+#: classes/repositories/Column.php:332 classes/repositories/Column.php:777
+#: classes/repositories/Column.php:778 classes/repositories/Column.php:977
+#: classes/repositories/Column.php:978
+#: classes/repositories/Tab_Repository.php:149
+#: classes/repositories/Tab_Repository.php:967
+#: views/bulk_edit/columns_modals/new_product_attribute.php:23
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:29
+msgid "Description"
+msgstr ""
+
+#: classes/repositories/Column.php:341 classes/repositories/Column.php:789
+#: classes/repositories/Column.php:790
+msgid "Short Description"
+msgstr ""
+
+#: classes/repositories/Column.php:350 classes/repositories/Column.php:814
+#: classes/repositories/Column.php:815
+msgid "Status"
+msgstr ""
+
+#: classes/repositories/Column.php:360 classes/repositories/Column.php:801
+#: classes/repositories/Column.php:802
+msgid "Product Type"
+msgstr ""
+
+#: classes/repositories/Column.php:370
+msgid "Product URL"
+msgstr ""
+
+#: classes/repositories/Column.php:379
+msgid "Button Text"
+msgstr ""
+
+#: classes/repositories/Column.php:388
+msgid "Catalog Visibility"
+msgstr ""
+
+#: classes/repositories/Column.php:398
+#: classes/repositories/Tab_Repository.php:628
+#: classes/repositories/Tab_Repository.php:1289
+msgid "Featured"
+msgstr ""
+
+#: classes/repositories/Column.php:407 classes/repositories/Column.php:1319
+#: classes/repositories/Column.php:1320
+#: classes/repositories/Tab_Repository.php:344
+#: classes/repositories/Tab_Repository.php:1072 views/settings/main.php:44
+msgid "Regular price"
+msgstr ""
+
+#: classes/repositories/Column.php:417 classes/repositories/Column.php:840
+#: classes/repositories/Column.php:841 classes/repositories/Column.php:1332
+#: classes/repositories/Column.php:1333
+#: classes/repositories/Tab_Repository.php:368
+#: classes/repositories/Tab_Repository.php:1089 views/settings/main.php:47
+msgid "Sale price"
+msgstr ""
+
+#: classes/repositories/Column.php:427 classes/repositories/Column.php:1015
+#: classes/repositories/Column.php:1016 classes/repositories/Column.php:1345
+#: classes/repositories/Column.php:1346
+msgid "Sale time from"
+msgstr ""
+
+#: classes/repositories/Column.php:437 classes/repositories/Column.php:1028
+#: classes/repositories/Column.php:1029 classes/repositories/Column.php:1358
+#: classes/repositories/Column.php:1359
+msgid "Sale time to"
+msgstr ""
+
+#: classes/repositories/Column.php:447 classes/repositories/Column.php:1461
+#: classes/repositories/Column.php:1462
+msgid "Grouped Products"
+msgstr ""
+
+#: classes/repositories/Column.php:456 classes/repositories/Column.php:1093
+#: classes/repositories/Column.php:1094 classes/repositories/Column.php:1389
+#: classes/repositories/Column.php:1390
+#: classes/repositories/Tab_Repository.php:658
+#: classes/repositories/Tab_Repository.php:1302
+msgid "Downloadable"
+msgstr ""
+
+#: classes/repositories/Column.php:465 classes/repositories/Column.php:1105
+#: classes/repositories/Column.php:1106 classes/repositories/Column.php:1401
+#: classes/repositories/Column.php:1402
+msgid "Downloadable Files"
+msgstr ""
+
+#: classes/repositories/Column.php:474 classes/repositories/Column.php:1117
+#: classes/repositories/Column.php:1118 classes/repositories/Column.php:1413
+#: classes/repositories/Column.php:1414
+#: classes/repositories/Tab_Repository.php:674
+msgid "Download limit"
+msgstr ""
+
+#: classes/repositories/Column.php:483 classes/repositories/Column.php:1129
+#: classes/repositories/Column.php:1130 classes/repositories/Column.php:1425
+#: classes/repositories/Column.php:1426
+#: classes/repositories/Tab_Repository.php:689
+msgid "Download expiry"
+msgstr ""
+
+#: classes/repositories/Column.php:492
+#: classes/repositories/Tab_Repository.php:422
+msgid "Tax status"
+msgstr ""
+
+#: classes/repositories/Column.php:506 classes/repositories/Column.php:1141
+#: classes/repositories/Column.php:1142
+#: classes/repositories/Tab_Repository.php:437
+msgid "Tax class"
+msgstr ""
+
+#: classes/repositories/Column.php:526 classes/repositories/Column.php:1054
+#: classes/repositories/Column.php:1055 classes/repositories/Column.php:1248
+#: classes/repositories/Column.php:1249
+#: classes/repositories/Tab_Repository.php:551
+#: classes/repositories/Tab_Repository.php:1216
+msgid "Manage stock"
+msgstr ""
+
+#: classes/repositories/Column.php:536 classes/repositories/Column.php:879
+#: classes/repositories/Column.php:880 classes/repositories/Column.php:951
+#: classes/repositories/Column.php:952 classes/repositories/Column.php:1261
+#: classes/repositories/Column.php:1262
+#: classes/repositories/Tab_Repository.php:578
+#: classes/repositories/Tab_Repository.php:1227
+msgid "Stock quantity"
+msgstr ""
+
+#: classes/repositories/Column.php:546 classes/repositories/Column.php:892
+#: classes/repositories/Column.php:893 classes/repositories/Column.php:964
+#: classes/repositories/Column.php:965 classes/repositories/Column.php:1274
+#: classes/repositories/Column.php:1275
+msgid "Low stock threshold"
+msgstr ""
+
+#: classes/repositories/Column.php:556 classes/repositories/Column.php:905
+#: classes/repositories/Column.php:906 classes/repositories/Column.php:1067
+#: classes/repositories/Column.php:1068 classes/repositories/Column.php:1287
+#: classes/repositories/Column.php:1288
+#: classes/repositories/Tab_Repository.php:565
+#: classes/repositories/Tab_Repository.php:1244
+msgid "Stock status"
+msgstr ""
+
+#: classes/repositories/Column.php:567 classes/repositories/Column.php:1154
+#: classes/repositories/Column.php:1155
+#: classes/repositories/Tab_Repository.php:593
+#: classes/repositories/Tab_Repository.php:1254
+msgid "Allow backorders"
+msgstr ""
+
+#: classes/repositories/Column.php:577
+#: classes/repositories/Tab_Repository.php:1315
+msgid "Sold individually"
+msgstr ""
+
+#: classes/repositories/Column.php:586 classes/repositories/Column.php:1167
+#: classes/repositories/Column.php:1168
+#: classes/repositories/Tab_Repository.php:524
+#: classes/repositories/Tab_Repository.php:1190
+msgid "Weight"
+msgstr ""
+
+#: classes/repositories/Column.php:596 classes/repositories/Column.php:1180
+#: classes/repositories/Column.php:1181
+#: classes/repositories/Tab_Repository.php:506
+#: classes/repositories/Tab_Repository.php:1173
+msgid "Length"
+msgstr ""
+
+#: classes/repositories/Column.php:606 classes/repositories/Column.php:1193
+#: classes/repositories/Column.php:1194
+#: classes/repositories/Tab_Repository.php:470
+#: classes/repositories/Tab_Repository.php:1139
+msgid "Width"
+msgstr ""
+
+#: classes/repositories/Column.php:616 classes/repositories/Column.php:1206
+#: classes/repositories/Column.php:1207
+#: classes/repositories/Tab_Repository.php:488
+#: classes/repositories/Tab_Repository.php:1156
+msgid "Height"
+msgstr ""
+
+#: classes/repositories/Column.php:626
+#: classes/repositories/Tab_Repository.php:459
+msgid "Shipping class"
+msgstr ""
+
+#: classes/repositories/Column.php:636 classes/repositories/Column.php:1437
+#: classes/repositories/Column.php:1438
+msgid "Up-sells"
+msgstr ""
+
+#: classes/repositories/Column.php:645 classes/repositories/Column.php:1449
+#: classes/repositories/Column.php:1450
+msgid "Cross-sells"
+msgstr ""
+
+#: classes/repositories/Column.php:654
+#: classes/repositories/Tab_Repository.php:183
+msgid "Purchase note"
+msgstr ""
+
+#: classes/repositories/Column.php:663
+#: classes/repositories/Tab_Repository.php:200
+#: classes/repositories/Tab_Repository.php:214
+#: classes/repositories/Tab_Repository.php:1346
+msgid "Menu order"
+msgstr ""
+
+#: classes/repositories/Column.php:672
+msgid "Reviews allowed"
+msgstr ""
+
+#: classes/repositories/Column.php:681 classes/repositories/Column.php:1081
+#: classes/repositories/Column.php:1082
+#: classes/repositories/Tab_Repository.php:642
+msgid "Virtual"
+msgstr ""
+
+#: classes/repositories/Column.php:690
+#: classes/repositories/Tab_Repository.php:285 views/history/main.php:34
+#: views/history/main.php:87
+msgid "Author"
+msgstr ""
+
+#: classes/repositories/Column.php:700
+msgid "Total sales"
+msgstr ""
+
+#: classes/repositories/Column.php:710
+msgid "Review count"
+msgstr ""
+
+#: classes/repositories/Column.php:720
+msgid "Average rating"
+msgstr ""
+
+#: classes/repositories/Column.php:730
+msgid "Date Published"
+msgstr ""
+
+#: classes/repositories/Column.php:765 classes/repositories/Column.php:766
+#: classes/repositories/Column.php:939 classes/repositories/Column.php:940
+#: classes/repositories/Column.php:1236 classes/repositories/Column.php:1237
+#: classes/repositories/Column.php:1307 classes/repositories/Column.php:1308
+#: classes/repositories/Column.php:1377 classes/repositories/Column.php:1378
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/repositories/Column.php:866 classes/repositories/Column.php:867
+#: views/settings/main.php:53
+msgid "Manage Stock"
+msgstr ""
+
+#: classes/repositories/History.php:40
+msgid "Bulk Operation"
+msgstr ""
+
+#: classes/repositories/History.php:41
+msgid "Inline Operation"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:47
+msgid "TextInput"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:48
+msgid "TextArea"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:49
+msgid "Checkbox"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:50
+msgid "Radio"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:51
+msgid "Array"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:52
+msgid "Calendar"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:53 views/activation/main.php:26
+msgid "Email"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:54
+msgid "Password"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:55
+msgid "Url"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:56
+#: classes/repositories/Tab_Repository.php:298
+msgid "Image"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:57
+msgid "File"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:58
+msgid "Editor"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:90
+msgid "String"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:91
+msgid "Number"
+msgstr ""
+
+#: classes/repositories/Product.php:46
+msgid "Trash"
+msgstr ""
+
+#: classes/repositories/Product.php:343
+msgid "Taxonomy"
+msgstr ""
+
+#: classes/repositories/Product.php:344
+msgid "Attribute"
+msgstr ""
+
+#: classes/repositories/Product.php:515
+msgid "Standard"
+msgstr ""
+
+#: classes/repositories/Search.php:91
+msgid "All Products"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:62
+#: classes/repositories/Tab_Repository.php:913
+msgid "General"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:63
+#: classes/repositories/Tab_Repository.php:914
+msgid "Categories/Tags/Taxonomies"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:64
+#: classes/repositories/Tab_Repository.php:915
+msgid "Pricing"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:65
+#: classes/repositories/Tab_Repository.php:916
+msgid "Shipping"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:66
+#: classes/repositories/Tab_Repository.php:917
+msgid "Stock"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:67
+#: classes/repositories/Tab_Repository.php:918
+msgid "Type"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:68
+#: classes/repositories/Tab_Repository.php:919
+msgid "Custom Fields"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:79
+msgid "Round item"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:92
+#: classes/repositories/Tab_Repository.php:953
+msgid "Product title"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:96
+#: classes/repositories/Tab_Repository.php:941
+#: classes/repositories/Tab_Repository.php:957
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:14
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:14
+#: views/modals/numeric_calculator.php:13
+msgid "Select Operator"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:98
+msgid "Remove Duplicate"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:104
+#: classes/repositories/Tab_Repository.php:963
+msgid "Title ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:115
+#: classes/repositories/Tab_Repository.php:994
+msgid "Product slug"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:122
+#: classes/repositories/Tab_Repository.php:1001
+msgid "Product slug ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:124
+#: classes/repositories/Tab_Repository.php:141
+#: classes/repositories/Tab_Repository.php:158
+#: classes/repositories/Tab_Repository.php:175
+#: classes/repositories/Tab_Repository.php:192
+#: classes/repositories/Tab_Repository.php:206
+#: classes/repositories/Tab_Repository.php:222
+#: classes/repositories/Tab_Repository.php:238
+#: classes/repositories/Tab_Repository.php:262
+#: classes/repositories/Tab_Repository.php:277
+#: classes/repositories/Tab_Repository.php:290
+#: classes/repositories/Tab_Repository.php:304
+#: classes/repositories/Tab_Repository.php:318
+#: classes/repositories/Tab_Repository.php:399
+#: classes/repositories/Tab_Repository.php:414
+#: classes/repositories/Tab_Repository.php:429
+#: classes/repositories/Tab_Repository.php:442
+#: classes/repositories/Tab_Repository.php:570
+#: classes/repositories/Tab_Repository.php:598
+#: classes/repositories/Tab_Repository.php:620
+#: classes/repositories/Tab_Repository.php:650
+#: classes/repositories/Tab_Repository.php:666
+#: classes/repositories/Tab_Repository.php:681
+#: classes/repositories/Tab_Repository.php:696
+#: classes/repositories/Tab_Repository.php:711
+#: classes/repositories/Tab_Repository.php:726
+#: classes/repositories/Tab_Repository.php:852
+#: classes/repositories/Tab_Repository.php:989
+#: classes/repositories/Tab_Repository.php:1003
+#: classes/repositories/Tab_Repository.php:1017
+#: classes/repositories/Tab_Repository.php:1031
+#: classes/repositories/Tab_Repository.php:1049
+#: classes/repositories/Tab_Repository.php:1113
+#: classes/repositories/Tab_Repository.php:1125
+#: classes/repositories/Tab_Repository.php:1249
+#: classes/repositories/Tab_Repository.php:1259
+#: classes/repositories/Tab_Repository.php:1297
+#: classes/repositories/Tab_Repository.php:1310
+#: classes/repositories/Tab_Repository.php:1323
+#: classes/repositories/Tab_Repository.php:1341
+#: classes/repositories/Tab_Repository.php:1359
+#: classes/repositories/Tab_Repository.php:1424
+msgid "Upgrade to pro version"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:132
+#: classes/repositories/Tab_Repository.php:1008
+msgid "Product SKU"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:139
+#: classes/repositories/Tab_Repository.php:1015
+msgid "Product SKU ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:156
+#: classes/repositories/Tab_Repository.php:976
+#: views/bulk_edit/columns_modals/new_product_attribute.php:24
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:30
+msgid "Description ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:166
+#: classes/repositories/Tab_Repository.php:980
+msgid "Short description"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:173
+#: classes/repositories/Tab_Repository.php:987
+msgid "Short description ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:190
+msgid "Purchase note ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:204
+msgid "Menu order ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:220
+#: classes/repositories/Tab_Repository.php:236
+#: classes/repositories/Tab_Repository.php:558
+#: classes/repositories/Tab_Repository.php:635
+#: classes/repositories/Tab_Repository.php:648
+#: classes/repositories/Tab_Repository.php:664
+#: classes/repositories/Tab_Repository.php:872
+#: classes/repositories/Tab_Repository.php:884
+#: classes/repositories/Tab_Repository.php:1223
+#: classes/repositories/Tab_Repository.php:1295
+#: classes/repositories/Tab_Repository.php:1308
+#: classes/repositories/Tab_Repository.php:1321
+#: classes/repositories/Tab_Repository.php:1568
+#: classes/repositories/Tab_Repository.php:1710 views/settings/main.php:81
+#: views/settings/main.php:92 views/settings/main.php:114
+#: views/settings/main.php:122 views/settings/main.php:133
+msgid "No"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:230
+msgid "Enable reviews"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:246
+#: classes/repositories/Tab_Repository.php:1281
+msgid "Product status"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:257
+#: classes/repositories/Tab_Repository.php:1336
+msgid "Catalog visibility"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:270 views/history/main.php:49
+msgid "Date"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:275
+msgid "Date ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:299
+msgid "Choose image"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:313
+msgid "Choose images"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:353
+msgid "Regular price ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:358
+#: classes/repositories/Tab_Repository.php:382
+msgid "Select round item"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:360
+#: classes/repositories/Tab_Repository.php:384
+#: classes/repositories/Tab_Repository.php:480
+#: classes/repositories/Tab_Repository.php:498
+#: classes/repositories/Tab_Repository.php:516
+#: classes/repositories/Tab_Repository.php:534
+msgid ""
+"Note: In formula, the current value known as X. Ex: (X+10)*10% :: (The "
+"current value+10) * 10%"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:377
+msgid "Sale price ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:392
+#: classes/repositories/Tab_Repository.php:1106
+msgid "Sale date from"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:397
+#: classes/repositories/Tab_Repository.php:1111
+msgid "Sale date from ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:407
+#: classes/repositories/Tab_Repository.php:1118
+msgid "Sale date to"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:412
+#: classes/repositories/Tab_Repository.php:1123
+msgid "Sale date to ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:615
+#: classes/repositories/Tab_Repository.php:1273
+msgid "Product type"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:679
+msgid "Download limit ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:694
+msgid "Download expiry ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:704
+#: classes/repositories/Tab_Repository.php:1022
+msgid "Product url"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:709
+#: classes/repositories/Tab_Repository.php:1029
+msgid "Product url ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:719
+msgid "Button text"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:724
+msgid "Button text ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:734
+msgid "Upsells"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:750
+msgid "Cross-Sells"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:799
+#: classes/repositories/Tab_Repository.php:1476
+msgid ""
+"There is not any added Meta Fields, You can add new Meta Fields trough "
+"\"Meta Fields\" tab."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:839
+#: views/bulk_edit/columns_modals/acf_taxonomy_multi_select.php:28
+msgid "Select ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:865
+msgid "Visible on Product Page"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:870
+#: classes/repositories/Tab_Repository.php:882
+msgid "Current Value"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:877
+#: views/bulk_edit/columns_modals/product_attribute.php:30
+msgid "Used for variations"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:901
+#: classes/repositories/Tab_Repository.php:1441
+msgid "Not found !"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:937
+msgid "Product ID(s)"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:949
+msgid "for example: 1,2,3 or 1-10 or 1,2,3|10-20"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1036
+msgid "Product date"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1041
+#: classes/repositories/Tab_Repository.php:1047
+#: classes/repositories/Tab_Repository.php:1078
+#: classes/repositories/Tab_Repository.php:1095
+#: classes/repositories/Tab_Repository.php:1145
+#: classes/repositories/Tab_Repository.php:1162
+#: classes/repositories/Tab_Repository.php:1179
+#: classes/repositories/Tab_Repository.php:1196
+#: classes/repositories/Tab_Repository.php:1233
+#: classes/repositories/Tab_Repository.php:1351
+#: classes/repositories/Tab_Repository.php:1676
+#: classes/repositories/Tab_Repository.php:1750
+#: classes/repositories/Tab_Repository.php:1769
+#: classes/repositories/Tab_Repository.php:1787 views/history/main.php:50
+msgid "From ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1085
+#: classes/repositories/Tab_Repository.php:1102
+#: classes/repositories/Tab_Repository.php:1152
+#: classes/repositories/Tab_Repository.php:1169
+#: classes/repositories/Tab_Repository.php:1186
+#: classes/repositories/Tab_Repository.php:1203
+#: classes/repositories/Tab_Repository.php:1240
+#: classes/repositories/Tab_Repository.php:1357
+#: classes/repositories/Tab_Repository.php:1684
+#: classes/repositories/Tab_Repository.php:1758
+#: classes/repositories/Tab_Repository.php:1777
+#: classes/repositories/Tab_Repository.php:1795 views/history/main.php:51
+msgid "To ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1328
+msgid "By author"
+msgstr ""
+
+#: views/activation/main.php:10
+msgid "Congratulations, Your plugin is activated successfully. Let's Go!"
+msgstr ""
+
+#: views/activation/main.php:30
+msgid "What is your industry?"
+msgstr ""
+
+#: views/activation/main.php:45
+msgid "Activate"
+msgstr ""
+
+#: views/activation/main.php:46
+msgid "Skip"
+msgstr ""
+
+#: views/alerts/wcbel_woocommerce_required.php:5
+msgid ""
+"\"iThemeland WooCommerce Bulk Product Editing\" Plugin needs \"WooCommerce\" "
+"Plugin, Please Install/Activate that."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:6
+msgid "Bulk Edit Form"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:124
+msgid "Do Bulk Edit"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:127
+msgid "Reset Form"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/acf_taxonomy_multi_select.php:44
+#: views/bulk_edit/columns_modals/gallery.php:27
+#: views/bulk_edit/columns_modals/product_attribute.php:60
+#: views/bulk_edit/columns_modals/product_taxonomy.php:44
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:43
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:43
+#: views/bulk_edit/columns_modals/select_files.php:19
+#: views/bulk_edit/columns_modals/select_products.php:20
+#: views/modals/file.php:25 views/modals/image.php:24
+#: views/modals/numeric_calculator.php:23 views/modals/text_editor.php:18
+msgid "Apply Changes"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/file_item.php:8 views/modals/file.php:16
+msgid "Choose File"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/gallery.php:6
+msgid "Gallery Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:6
+msgid "New Product Attribute"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:15
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:15
+msgid "Name"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:16
+msgid "Attribute Name ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:20
+msgid "Attribute Slug ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_attribute.php:31
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:37
+#: views/modals/new_item.php:30
+msgid "Create"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:6
+msgid "New Product Taxonomy"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:16
+msgid "Taxonomy Name ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:20
+msgid "Taxonomy Slug ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/new_product_taxonomy.php:25
+msgid "None"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:7
+msgid "Attribute Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:14
+#: views/bulk_edit/columns_modals/product_taxonomy.php:14
+msgid "Type for search"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:14
+msgid "Type for search ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:25
+msgid "Visible on the product page"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_attribute.php:63
+#: views/bulk_edit/columns_modals/product_taxonomy.php:47
+msgid "Add New"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/product_taxonomy.php:7
+msgid "Taxonomy Edit"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:7
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:7
+#: views/modals/numeric_calculator.php:6
+msgid "Calculator"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:19
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:19
+#: views/modals/numeric_calculator.php:18
+msgid "Enter Value ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:19
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:19
+#: views/modals/numeric_calculator.php:18
+msgid "Value"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:20
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:20
+msgid "Select Type"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:24
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:24
+msgid "Rounding"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/regular_price_calculator.php:25
+#: views/bulk_edit/columns_modals/sale_price_calculator.php:25
+msgid "no rounding"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/select_files.php:6
+msgid "Select Files"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/select_files.php:13
+msgid "Add File"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/select_products.php:6
+msgid "Select Products"
+msgstr ""
+
+#: views/bulk_edit/filter_bar.php:5
+msgid "Quick Search ..."
+msgstr ""
+
+#: views/bulk_edit/filter_bar.php:39
+msgid "Status Filter"
+msgstr ""
+
+#: views/bulk_edit/filter_bar.php:40
+msgid "Statuses"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:7
+msgid "Filter Form"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:101
+msgid "Get products"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:104 views/history/main.php:62
+msgid "Reset Filters"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:110
+msgid "Save Profile"
+msgstr ""
+
+#: views/bulk_edit/status_filters.php:3
+msgid "All"
+msgstr ""
+
+#: views/bulk_edit/variations.php:6
+msgid "Variation Bulk Edit"
+msgstr ""
+
+#: views/bulk_edit/variations.php:18
+msgid "Set Variation"
+msgstr ""
+
+#: views/bulk_edit/variations.php:20
+msgid "Delete Variation"
+msgstr ""
+
+#: views/bulk_edit/variations.php:21
+msgid "Attach Variation"
+msgstr ""
+
+#: views/bulk_edit/variations.php:34
+msgid "Product Attributes"
+msgstr ""
+
+#: views/bulk_edit/variations.php:40
+msgid "Select Attributes"
+msgstr ""
+
+#: views/bulk_edit/variations.php:47
+msgid "How To Create Variations ?"
+msgstr ""
+
+#: views/bulk_edit/variations.php:50
+msgid "All Combinations"
+msgstr ""
+
+#: views/bulk_edit/variations.php:54
+msgid "Individual Combination"
+msgstr ""
+
+#: views/bulk_edit/variations.php:63
+msgid "Add"
+msgstr ""
+
+#: views/bulk_edit/variations.php:68
+msgid "Generate"
+msgstr ""
+
+#: views/bulk_edit/variations.php:74
+msgid "Current Variations"
+msgstr ""
+
+#: views/bulk_edit/variations.php:83
+msgid "Do Bulk Variations"
+msgstr ""
+
+#: views/column_manager/edit_preset.php:9
+msgid "Edit Column Preset"
+msgstr ""
+
+#: views/column_manager/edit_preset.php:20 views/column_manager/main.php:71
+#: views/data_table/items.php:18 views/modals/column_profiles.php:38
+msgid "Select All"
+msgstr ""
+
+#: views/column_manager/edit_preset.php:22 views/column_manager/main.php:67
+msgid "Search Field ..."
+msgstr ""
+
+#: views/column_manager/edit_preset.php:50
+msgid "Profile name ..."
+msgstr ""
+
+#: views/column_manager/edit_preset.php:61 views/modals/column_profiles.php:107
+#: views/settings/main.php:146
+msgid "Save Changes"
+msgstr ""
+
+#: views/column_manager/field_item.php:5
+msgid "Enter column title ..."
+msgstr ""
+
+#: views/column_manager/field_item.php:5
+msgid "Enter column title"
+msgstr ""
+
+#: views/column_manager/field_item.php:6
+msgid "Background Color"
+msgstr ""
+
+#: views/column_manager/field_item.php:7
+msgid "Select Background Color"
+msgstr ""
+
+#: views/column_manager/field_item.php:10
+msgid "Select Text Color"
+msgstr ""
+
+#: views/column_manager/main.php:6 views/navigation/buttons.php:115
+msgid "Column Manager"
+msgstr ""
+
+#: views/column_manager/main.php:14
+msgid ""
+"Mange columns of table. You can Create your customize presets and use them "
+"in column profile section."
+msgstr ""
+
+#: views/column_manager/main.php:17 views/modals/column_profiles.php:6
+msgid "Column Profiles"
+msgstr ""
+
+#: views/column_manager/main.php:26 views/modals/filter_profiles.php:18
+msgid "Profile Name"
+msgstr ""
+
+#: views/column_manager/main.php:27 views/history/main.php:88
+#: views/modals/filter_profiles.php:19
+msgid "Date Modified"
+msgstr ""
+
+#: views/column_manager/main.php:28 views/history/main.php:89
+#: views/modals/filter_profiles.php:21
+msgid "Actions"
+msgstr ""
+
+#: views/column_manager/main.php:45
+msgid "Edit"
+msgstr ""
+
+#: views/column_manager/main.php:65
+msgid "Create New Profile"
+msgstr ""
+
+#: views/column_manager/main.php:67
+msgid "Search Field"
+msgstr ""
+
+#: views/column_manager/main.php:103
+msgid "Save Preset"
+msgstr ""
+
+#: views/column_manager/main.php:107
+msgid "Please add your columns here"
+msgstr ""
+
+#: views/data_table/items.php:75 views/layouts/header.php:2
+msgid "Loading ..."
+msgstr ""
+
+#: views/data_table/items.php:88
+msgid "No Data Available!"
+msgstr ""
+
+#: views/history/history_items.php:54
+msgid "Revert"
+msgstr ""
+
+#: views/history/main.php:6 views/navigation/buttons.php:127
+#: views/navigation/buttons.php:135
+msgid "History"
+msgstr ""
+
+#: views/history/main.php:14
+msgid "List of your changes and possible to roll back to the previous data"
+msgstr ""
+
+#: views/history/main.php:23
+msgid "Operation"
+msgstr ""
+
+#: views/history/main.php:45 views/import_export/main.php:33
+msgid "Fields"
+msgstr ""
+
+#: views/history/main.php:58
+msgid "Apply Filters"
+msgstr ""
+
+#: views/history/main.php:70
+msgid "Clear History"
+msgstr ""
+
+#: views/history/main.php:77
+msgid "Column(s)"
+msgstr ""
+
+#: views/history/main.php:86
+msgid "History Name"
+msgstr ""
+
+#: views/import_export/main.php:6 views/navigation/buttons.php:154
+msgid "Import/Export"
+msgstr ""
+
+#: views/import_export/main.php:14
+msgid "Import/Export products as CSV files"
+msgstr ""
+
+#: views/import_export/main.php:22
+msgid "Products"
+msgstr ""
+
+#: views/import_export/main.php:25
+msgid "All Products In Table"
+msgstr ""
+
+#: views/import_export/main.php:29
+msgid "Only Selected products"
+msgstr ""
+
+#: views/import_export/main.php:40
+msgid "Only Visible Fields"
+msgstr ""
+
+#: views/import_export/main.php:44
+msgid "Delimiter"
+msgstr ""
+
+#: views/import_export/main.php:55
+msgid "Export Now"
+msgstr ""
+
+#: views/import_export/main.php:63
+msgid ""
+"If you have products in another system, you can import those into this site. "
+msgstr ""
+
+#: views/import_export/main.php:69
+msgid "Import Now"
+msgstr ""
+
+#: views/meta_field/main.php:6
+msgid "Meta Fields"
+msgstr ""
+
+#: views/meta_field/main.php:14
+msgid ""
+"You can add new products meta fields in two ways: 1- Individually 2- Get "
+"from other product."
+msgstr ""
+
+#: views/meta_field/main.php:22
+msgid "Manually"
+msgstr ""
+
+#: views/meta_field/main.php:24
+msgid "Enter Meta Key ..."
+msgstr ""
+
+#: views/meta_field/main.php:31
+msgid "Automatically From product"
+msgstr ""
+
+#: views/meta_field/main.php:33
+msgid "Enter Product ID ..."
+msgstr ""
+
+#: views/meta_field/main.php:42
+msgid "Please add your meta key manually"
+msgstr ""
+
+#: views/meta_field/main.php:42
+msgid "OR"
+msgstr ""
+
+#: views/meta_field/main.php:42
+msgid "From another product"
+msgstr ""
+
+#: views/meta_field/main.php:51
+msgid "Save Fields"
+msgstr ""
+
+#: views/modals/column_profiles.php:16
+msgid ""
+"You can load saved column profile presets through Column Manager. You can "
+"change the columns and save your changes too."
+msgstr ""
+
+#: views/modals/column_profiles.php:19
+msgid "Choose Preset"
+msgstr ""
+
+#: views/modals/column_profiles.php:42
+msgid "Search"
+msgstr ""
+
+#: views/modals/column_profiles.php:43
+msgid "Search Column ..."
+msgstr ""
+
+#: views/modals/column_profiles.php:76
+msgid "Fields from certain third-party plugins"
+msgstr ""
+
+#: views/modals/column_profiles.php:103
+msgid "Apply To Table"
+msgstr ""
+
+#: views/modals/column_profiles.php:113
+msgid "Update selected preset"
+msgstr ""
+
+#: views/modals/column_profiles.php:116
+msgid "Save as new preset"
+msgstr ""
+
+#: views/modals/duplicate_item.php:6 views/navigation/buttons.php:58
+msgid "Duplicate"
+msgstr ""
+
+#: views/modals/duplicate_item.php:15
+msgid "Enter how many item(s) to Duplicate!"
+msgstr ""
+
+#: views/modals/duplicate_item.php:17 views/modals/new_item.php:15
+msgid "Number ..."
+msgstr ""
+
+#: views/modals/duplicate_item.php:23
+msgid "Start Duplicate"
+msgstr ""
+
+#: views/modals/file.php:6
+msgid "Select File"
+msgstr ""
+
+#: views/modals/file.php:18
+msgid "Clear"
+msgstr ""
+
+#: views/modals/filter_profile_item.php:8
+msgid "Use it constantly"
+msgstr ""
+
+#: views/modals/filter_profiles.php:6
+msgid "Filter Profiles"
+msgstr ""
+
+#: views/modals/filter_profiles.php:20
+msgid "Use Always"
+msgstr ""
+
+#: views/modals/image.php:6
+msgid "Image Edit"
+msgstr ""
+
+#: views/modals/image.php:27
+msgid "Remove Image"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:16
+msgid "replace"
+msgstr ""
+
+#: views/modals/text_editor.php:6
+msgid "Content Edit"
+msgstr ""
+
+#: views/navigation/buttons.php:2
+msgid "Filter"
+msgstr ""
+
+#: views/navigation/buttons.php:8
+msgid "Quick Search"
+msgstr ""
+
+#: views/navigation/buttons.php:15
+msgid "Bulk Edit"
+msgstr ""
+
+#: views/navigation/buttons.php:21
+msgid "Variations"
+msgstr ""
+
+#: views/navigation/buttons.php:29
+msgid "Manage Variations"
+msgstr ""
+
+#: views/navigation/buttons.php:35
+msgid "Show Variations"
+msgstr ""
+
+#: views/navigation/buttons.php:42
+msgid "Select All Variations"
+msgstr ""
+
+#: views/navigation/buttons.php:50
+msgid "Bind Edit"
+msgstr ""
+
+#: views/navigation/buttons.php:64
+msgid "Reload"
+msgstr ""
+
+#: views/navigation/buttons.php:84
+msgid "Move to trash"
+msgstr ""
+
+#: views/navigation/buttons.php:90
+msgid "Permanently"
+msgstr ""
+
+#: views/navigation/buttons.php:96
+msgid "Delete All Products"
+msgstr ""
+
+#: views/navigation/buttons.php:103
+msgid "Column Profile"
+msgstr ""
+
+#: views/navigation/buttons.php:109
+msgid "Filter Profile"
+msgstr ""
+
+#: views/navigation/buttons.php:121
+msgid "Meta fields"
+msgstr ""
+
+#: views/navigation/buttons.php:141
+msgid "Undo"
+msgstr ""
+
+#: views/navigation/buttons.php:147
+msgid "Redo"
+msgstr ""
+
+#: views/navigation/buttons.php:160 views/settings/main.php:6
+msgid "Settings"
+msgstr ""
+
+#: views/navigation/buttons.php:166
+msgid "Reset Filter"
+msgstr ""
+
+#: views/navigation/buttons.php:180
+msgid "Restore Selected Items"
+msgstr ""
+
+#: views/navigation/buttons.php:186
+msgid "Restore All"
+msgstr ""
+
+#: views/navigation/buttons.php:192
+msgid "Delete Permanently"
+msgstr ""
+
+#: views/navigation/buttons.php:198
+msgid "Empty Trash"
+msgstr ""
+
+#: views/settings/main.php:16
+msgid "You can set bulk editor settings"
+msgstr ""
+
+#: views/settings/main.php:19
+msgid "Count Per Page"
+msgstr ""
+
+#: views/settings/main.php:35
+msgid "Default Sort By"
+msgstr ""
+
+#: views/settings/main.php:56
+msgid "Stock Quantity"
+msgstr ""
+
+#: views/settings/main.php:59
+msgid "Stock Status"
+msgstr ""
+
+#: views/settings/main.php:64
+msgid "Default Sort"
+msgstr ""
+
+#: views/settings/main.php:67
+msgid "ASC"
+msgstr ""
+
+#: views/settings/main.php:70
+msgid "DESC"
+msgstr ""
+
+#: views/settings/main.php:75
+msgid "Close popup after applying"
+msgstr ""
+
+#: views/settings/main.php:86
+msgid "Sticky 'ID' & 'Title' Columns"
+msgstr ""
+
+#: views/settings/main.php:97
+msgid "Display Columns Label"
+msgstr ""
+
+#: views/settings/main.php:100
+msgid "Completely"
+msgstr ""
+
+#: views/settings/main.php:103
+msgid "In short"
+msgstr ""
+
+#: views/settings/main.php:108
+msgid "Enable Thumbnail Popup"
+msgstr ""
+
+#: views/settings/main.php:119
+msgid "Keep filled data in bulk edit form"
+msgstr ""
+
+#: views/settings/main.php:130
+msgid "Show Only Filtered Variations"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.ithemelandco.com/Plugins/Pro-Bulk-Editing/woocommerce-bulk-"
+"product-editing"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Editing Date in WordPress is very painful. Be professionals with managing "
+"data in the reliable and flexible way by WooCommerce Bulk Product Editor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemelandco"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.ithemelandco.com"
+msgstr ""

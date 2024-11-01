@@ -1,0 +1,3912 @@
+/**************** Fonts *******************/
+
+
+/* open-sans-regular - latin */
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/open-sans-v17-latin/open-sans-v17-latin-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/open-sans-v17-latin/open-sans-v17-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-regular.svg#OpenSans") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* open-sans-600 - latin */
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/open-sans-v17-latin/open-sans-v17-latin-600.eot");
+    /* IE9 Compat Modes */
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("../fonts/open-sans-v17-latin/open-sans-v17-latin-600.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-600.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-600.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-600.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-600.svg#OpenSans") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* open-sans-700 - latin */
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/open-sans-v17-latin/open-sans-v17-latin-700.eot");
+    /* IE9 Compat Modes */
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/open-sans-v17-latin/open-sans-v17-latin-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-700.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-700.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/open-sans-v17-latin/open-sans-v17-latin-700.svg#OpenSans") format("svg");
+    /* Legacy iOS */
+}
+
+
+/**************** End Fonts *******************/
+
+#wpfooter {
+    display: none !important;
+}
+
+#dolly,
+.notice,
+.update-nag {
+    display: none !important;
+}
+
+#wp-admin-bar-wpbel-col-view {
+    font-weight: bold;
+    color: #8080db;
+}
+
+#wp-admin-bar-wpbel-col-view .wpbel-col-title {
+    font-weight: bold;
+    color: #cc73e5;
+}
+
+#wpbel-main input[type="text"],
+#wpbel-main input[type="number"],
+#wpbel-main select {
+    height: 34px;
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 10pt;
+}
+
+td input[type="text"],
+td input[type="number"],
+td select {
+    height: 28px !important;
+}
+
+.wpbel-top-nav-filters-left input[type="text"],
+.wpbel-top-nav-filters-left input[type="number"],
+.wpbel-top-nav-filters-left button,
+.wpbel-top-nav-filters-left select {
+    height: 30px !important;
+}
+
+#wpbel-filter-form-content input[type="text"],
+#wpbel-filter-form-content textarea,
+#wpbel-filter-form-content input[type="number"],
+#wpbel-filter-form-content select,
+#wpbel-modal-bulk-edit input[type="text"],
+#wpbel-modal-bulk-edit textarea,
+#wpbel-modal-bulk-edit input[type="number"],
+#wpbel-modal-bulk-edit select {
+    height: 43px;
+}
+
+#wpbel-filter-form-content input[type="text"],
+#wpbel-filter-form-content input[type="number"],
+#wpbel-filter-form-content textarea,
+#wpbel-modal-bulk-edit input[type="text"],
+#wpbel-modal-bulk-edit input[type="number"],
+#wpbel-modal-bulk-edit textarea {
+    margin-right: 10px;
+}
+
+#wpbel-bulk-edit-filter-form-close-button {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[disabled="disabled"] {
+    cursor: auto !important;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+.wpbel-delete-item-btn,
+.wpbel-restore-item-btn {
+    height: 28px;
+}
+
+.wpbel-table-border-radius {
+    border: 1px #dbdbdb solid;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    overflow: auto;
+}
+
+#wpbel-filter-form-content label,
+#wpbel-modal-bulk-edit label {
+    height: 43px;
+    line-height: 43px;
+}
+
+.mce-container iframe {
+    min-height: 250px;
+}
+
+.wpbel-h43 {
+    height: 43px !important;
+}
+
+.wpbel-float-left {
+    float: left;
+}
+
+.wpbel-red-text {
+    color: #ce2828;
+}
+
+.wpbel-float-right {
+    float: right;
+}
+
+.wpbel-mt10 {
+    margin-top: 10px;
+}
+
+.wpbel-mt30 {
+    margin-top: 30px;
+}
+
+.wpbel-mb10 {
+    margin-bottom: 10px;
+}
+
+.wpbel-mb20 {
+    margin-bottom: 20px;
+}
+
+.wpbel-w60p {
+    width: 60% !important;
+}
+
+.wpbel-mt15 {
+    margin-top: 15px !important;
+}
+
+.wpbel-mb0 {
+    margin-bottom: 0 !important;
+}
+
+.wpbel-w40p {
+    width: 40% !important;
+}
+
+.wpbel-input-ft {
+    width: 280px !important;
+    max-width: 280px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wpbel-w100p {
+    width: 100%;
+}
+
+.wpbel-w500 {
+    width: 500px !important;
+    max-width: 500px !important;
+}
+
+.wpbel-mw125 {
+    min-width: 125px !important;
+}
+
+.wpbel-mw250 {
+    min-width: 250px !important;
+}
+
+.wpbel-mt-10 {
+    margin-top: 10px;
+}
+
+.wpbel-history-pagination-container {
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin: 20px 0 0 0;
+}
+
+.wpbel-pagination-loading,
+.wpbel-history-pagination-loading {
+    display: none;
+    float: right;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.wpbel-pagination-loading {
+    line-height: 30px !important;
+    margin-top: 6px;
+}
+
+.wpbel-pagination-loading img {
+    vertical-align: middle;
+}
+
+.wpbel-products-pagination {
+    float: right;
+}
+
+.wpbel-products-count {
+    float: left;
+    line-height: 34px;
+    font-size: 10pt;
+}
+
+.ui-datepicker {
+    z-index: 160000 !important;
+}
+
+.wpbel-loading,
+.wpbel-flush-message {
+    display: none;
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 32px;
+    right: 0;
+    left: 0;
+    bottom: auto;
+    margin: auto;
+    background: #f39c12;
+    z-index: 165000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #fff;
+}
+
+.wpbel-flush-message {
+    display: block;
+}
+
+.wpbel-h43 {
+    height: 43px !important;
+}
+
+.wpbel-loading-success,
+.wpbel-flush-message-success {
+    background: #00a65a;
+}
+
+td[data-content-type="numeric"] * {
+    pointer-events: auto;
+}
+
+.wpbel-loading-error,
+.wpbel-flush-message-error {
+    background: #dd4b39;
+}
+
+.wpbel-mr5 {
+    margin-right: 5px;
+}
+
+.wpbel-mr10 {
+    margin-right: 10px;
+}
+
+.wpbel-ml5 {
+    margin-left: 5px;
+}
+
+.wpbel-ml10 {
+    margin-left: 10px;
+}
+
+.wpbel-ml20 {
+    margin-left: 20px;
+}
+
+.wpbel-ml45 {
+    margin-left: 45px;
+}
+
+.wpbel-mr20 {
+    margin-right: 20px;
+}
+
+.wpbel-mt64 {
+    margin-top: 64px !important;
+}
+
+.wpbel-mt20 {
+    margin-top: 20px !important;
+}
+
+.wpbel-mt10 {
+    margin-top: 10px !important;
+}
+
+.wpbel-mt0 {
+    margin-top: 0 !important;
+}
+
+.wpbel-pt20 {
+    padding-top: 20px !important;
+}
+
+.wpbel-pt40 {
+    padding-top: 40px !important;
+}
+
+.wpbel-pb20 {
+    padding-bottom: 20px !important;
+}
+
+.wpbel-w100p {
+    width: 100% !important;
+}
+
+.wpbel-hide {
+    display: none;
+}
+
+.wpbel-box-loading {
+    margin: 15px 0;
+}
+
+.wpbel-input-danger {
+    border-color: red !important;
+}
+
+.wpbel-m0 {
+    margin: 0 !important;
+}
+
+.wpbel-pb30 {
+    padding-bottom: 30px;
+}
+
+.dtp {
+    z-index: 159100 !important;
+}
+
+.wpbel-text-alert {
+    color: #dd4b39;
+    font-weight: bold;
+}
+
+#wpcontent {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.select2-container {
+    z-index: 159900;
+}
+
+.wpbel-inline-select-products .select2-container {
+    width: 100% !important;
+}
+
+a {
+    color: #2092f2;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.wpbel-col-full,
+.wpbel-col-half,
+.wpbel-col-7 {
+    float: left;
+    font-size: 14px;
+    padding: 0 2%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-col-full {
+    width: 100%;
+}
+
+.wpbel-col-7 {
+    width: 70%;
+}
+
+.wpbel-col-half {
+    width: 50%;
+}
+
+.wpbel-button:focus {
+    color: #fff !important;
+}
+
+.wpbel-button-white:focus {
+    color: #444 !important;
+}
+
+.wpbel-button,
+.sa-confirm-button-container .btn-primary {
+    height: 34px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #603ecd;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 13px;
+    font-weight: 600;
+    margin-right: 5px;
+    line-height: 32px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px transparent solid;
+}
+
+.wpbel-button[disabled="disabled"] {
+    background: #e3e3e3 !important;
+    color: #3e3e3e;
+}
+
+.sa-button-container .wpbel-button {
+    font-size: 11pt;
+}
+
+.wpbel-button-lg {
+    height: 45px;
+    line-height: 45px;
+}
+
+.sa-confirm-button-container .btn-primary,
+.sa-button-container .wpbel-button-lg {
+    font-size: 14px;
+    height: 36px;
+    line-height: 34px;
+}
+
+.wpbel-button-md {
+    height: 43px;
+    line-height: 43px;
+}
+
+.wpbel-button span {
+    float: right;
+}
+
+.wpbel-button img {
+    height: 24px;
+    margin: 5px 10px 5px 0;
+    float: left;
+}
+
+.wpbel-button i {
+    margin: 6px 5px 6px 0;
+    float: left;
+    font-size: 17px;
+}
+
+.wpbel-button-lg img {
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+
+.wpbel-button-lg i {
+    font-size: 18pt;
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+
+.wpbel-button-md i {
+    font-size: 13pt;
+    margin: 12px 10px 12px 0;
+    float: left;
+}
+
+.wpbel-button-flat i {
+    color: #444;
+    margin: 0;
+    font-size: 17pt;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.wpbel-button-flat {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.wpbel-button-blue,
+.sa-confirm-button-container .btn-primary {
+    background-color: #603ecd !important;
+    color: #fff;
+}
+
+.wpbel-button-green {
+    background-color: #4ebc4c !important;
+    color: #fff;
+}
+
+.wpbel-button-red {
+    background-color: #ff8080 !important;
+    color: #fff;
+}
+
+.wpbel-button-white {
+    background-color: #fff;
+    color: #949494;
+    border-color: #949494;
+}
+
+.wpbel-button-gray {
+    background-color: #c7c7c7;
+    color: #000;
+    border-color: #c7c7c7;
+}
+
+.wpbel-button-blue:hover {
+    background-color: #593bb1;
+    color: #fff;
+}
+
+.wpbel-button-white:hover {
+    color: #444;
+    border-color: #444;
+}
+
+.wpbel-button-gray:hover {
+    background: #bababa;
+    color: #000;
+}
+
+.wpbel-text-green {
+    color: #14c24e;
+}
+
+.wpbel-text-red {
+    color: #c21414;
+}
+
+.wpbel-button-red:hover {
+    background: #ed6666;
+}
+
+.wpbel-button-square-lg {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.wpbel-button-square-lg i {
+    width: 24px !important;
+    height: 24px !important;
+    margin: 0 13px !important;
+}
+
+.wpbel-button-square {
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    padding: 0;
+    line-height: 34px;
+}
+
+.wpbel-button-square i {
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    padding: 0;
+    margin: 8px 0;
+    vertical-align: middle;
+}
+
+#wpbel-main input[type="color"] {
+    visibility: hidden;
+}
+
+.wpbel-alert {
+    width: 100%;
+    display: inline-table;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 7px 0;
+    font-size: 10pt;
+}
+
+.wpbel-alert-default {
+    background: #f2f2f2;
+}
+
+.wpbel-alert-success {
+    background: #00a65a;
+    color: #fff;
+}
+
+.wpbel-alert-warning {
+    background: #f39c12;
+    color: #fff;
+}
+
+.wpbel-alert-danger {
+    background: #dd4b39;
+    color: #fff;
+}
+
+.wpbel-alert i {
+    font-size: 27pt;
+    margin-right: 15px;
+}
+
+.wpbel-alert a {
+    float: right;
+    color: #fff;
+    background: #46ad16;
+    padding: 5px 20px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.wpbel-lh36 {
+    line-height: 36px;
+}
+
+#wpbel-main i {
+    vertical-align: middle;
+}
+
+@-webkit-keyframes wpbel-tabs-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes wpbel-tabs-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes wpbel-tabs-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#wpbel-main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    direction: ltr;
+    font-family: "Open Sans", serif;
+    position: fixed;
+    line-height: 26px;
+    top: 32px;
+    right: 0;
+    padding-left: 160px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #f0f0f1;
+}
+
+#wpbel-header {
+    width: 100%;
+    height: 90px;
+    background: url(../images/background-header.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#wpbel-body {
+    width: 100%;
+    height: auto;
+    background: #f7f7f7;
+}
+
+.wpbel-item-view-icon span {
+    vertical-align: middle !important;
+    width: 19px;
+    height: 19px;
+    font-size: 19px;
+    margin-top: -3px;
+}
+
+.wpbel-inline-uploader img {
+    cursor: pointer;
+}
+
+.wpbel-inline-image-edit {
+    text-align: center;
+    position: relative;
+}
+
+.wpbel-inline-image-edit button.wpbel-inline-uploader {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    border: 0;
+    background: #603ecd;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.wpbel-inline-image-edit button.wpbel-inline-uploader i {
+    color: #fff;
+    font-size: 14pt;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.wpbel-inline-image-edit .wpbel-inline-image-preview img {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.wpbel-plugin-title {
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    left: 2%;
+}
+
+.wpbel-plugin-name {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wpbel-plugin-name img {
+    margin: 2px 7px 0 0;
+    float: left;
+}
+
+.wpbel-plugin-description {
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.wpbel-header-left {
+    float: right;
+    height: auto;
+    margin: 0 2% 0 0;
+    position: absolute;
+    right: 0;
+    top: 13px;
+}
+
+.wpbel-header-left * {
+    color: #fff;
+}
+
+.wpbel-header-left li {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+.wpbel-header-left i {
+    vertical-align: baseline !important;
+}
+
+.wpbel-header-left svg {
+    width: 17px;
+    height: 17px;
+}
+
+.wpbel-header-left svg path {
+    fill: #f6f6f6;
+}
+
+.wpbel-wrap {
+    width: 98%;
+    margin: 0 1%;
+}
+
+#wpbel-filter-form .wpbel-wrap,
+.wpbel-modal-body .wpbel-wrap {
+    width: 94%;
+    margin: 0 3%;
+}
+
+.wpbel-tabs-main {
+    width: 98%;
+    min-width: 1050px;
+    background: #fff;
+    margin: 0 1%;
+    position: relative;
+    top: -43px;
+    height: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+    box-shadow: 0 0 25.5px rgba(0, 0, 0, 0.09);
+}
+
+.wpbel-tabs-navigation {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.wpbel-tabs-list li {
+    float: left;
+    margin: 0;
+}
+
+.wpbel-tabs-list[data-content-id="wpbel-main-tabs-contents"] li {
+    border-right: 1px #e3e3e3 solid;
+}
+
+.wpbel-tabs-list>li>button {
+    position: relative;
+    color: #737373;
+    float: left;
+    padding: 10px 12px;
+    transition: all 0.2s ease;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.wpbel-tabs-list>li>button i {
+    display: inline-block;
+    margin-top: -1px;
+}
+
+.wpbel-tabs-list button.disabled {
+    pointer-events: none !important;
+}
+
+.wpbel-tabs-list button.disabled i {
+    color: #e3e3e3 !important;
+}
+
+.wpbel-tabs-list .wpbel-tab-changed::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    float: right;
+    margin: 7px 0 0 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.wpbel-tabs-list li button:hover {
+    color: #1d1d1e;
+}
+
+.wpbel-tabs-list li button.selected {
+    color: #303740;
+}
+
+.wpbel-tabs-list:not([data-content-id="wpbel-main-tabs-contents"]) button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    right: 50%;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background: #603ecd;
+    transition: all 0.2s ease;
+}
+
+.wpbel-tabs-list button[data-content="purchase-verification"][data-el="false"]:after {
+    background: #d82121
+}
+
+.wpbel-tabs-list>li>button.selected::after {
+    right: 0;
+    left: 0;
+    width: auto;
+}
+
+.wpbel-tabs-list i {
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    color: #3e3e3e;
+}
+
+.wpbel-tabs-list .wpbel-sub-tab {
+    width: 185px;
+    min-height: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    display: none;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    z-index: 9999;
+    float: left;
+}
+
+.wpbel-tabs-list .wpbel-sub-tab li {
+    width: 100%;
+    float: left;
+}
+
+.wpbel-tabs-list .wpbel-sub-tab li button,
+.wpbel-tabs-list .wpbel-sub-tab li a {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #404040;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-tabs-list .wpbel-sub-tab li button:hover,
+.wpbel-tabs-list .wpbel-sub-tab li a:hover {
+    background-color: #e3e3e3;
+}
+
+.wpbel-tabs-list .wpbel-sub-tab li i {
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.wpbel-tabs-list .wpbel-sub-tab li i,
+.wpbel-tabs-list .wpbel-sub-tab li span {
+    display: inline-block;
+}
+
+.wpbel-tabs-contents,
+.wpbel-tab-content-item {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.wpbel-tabs-contents {
+    padding-bottom: 4px;
+}
+
+.wpbel-tab-content-item {
+    display: none;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.wpbel-tabs-contents .selected {
+    display: block;
+}
+
+.wpbel-tab-content-header {
+    width: 100%;
+    padding: 30px 0 0 35px;
+    box-sizing: border-box;
+}
+
+.wpbel-tab-content-title {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 10px 10px 0;
+    display: block;
+    position: relative;
+}
+
+.wpbel-tab-content-title:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 87px;
+    height: 1px;
+    background: #7258cf;
+    transition: all 0.2s ease;
+}
+
+.wpbel-tab-content-description {
+    line-height: 18px;
+    color: #858585;
+    margin-top: 25px;
+    display: block;
+}
+
+.wpbel-filter-form-button {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+.wpbel-filter-form-button a {
+    display: inline-table;
+    padding: 8px 20px;
+    background: #5449b5;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    font-size: 11pt;
+}
+
+#wpbel-filter-form-content {
+    padding: 0;
+    background: #fff;
+    filter: drop-shadow(0 30px 25.5px rgba(0, 0, 0, 0.2));
+}
+
+#wpbel-filter-form-content .wpbel-tabs-list {
+    width: 100%;
+    float: left;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 0;
+}
+
+#wpbel-filter-form-content .wpbel-tabs-list a,
+#wpbel-modal-bulk-edit .wpbel-tabs-list a {
+    color: #000;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#wpbel-bulk-edit-filter-tabs-contents {
+    margin-top: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.wpbel-back-page {
+    position: absolute;
+    top: 45px;
+    right: 35px;
+    font-size: 12px;
+    color: #a9a9a9;
+    font-weight: 700;
+}
+
+.wpbel-back-page i {
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: -4px;
+    margin-right: 5px;
+}
+
+.wpbel-tab-content-header a[data-endpoint="/accounts/new"] {
+    position: absolute;
+    top: 35px;
+    right: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.wpbel-tab-content-header a[data-endpoint="/accounts/new"] i {
+    font-size: 15px;
+    font-weight: 600;
+    vertical-align: -1px;
+}
+
+.wpbel-top-nav-buttons {
+    width: 100%;
+    min-height: 60px;
+    margin-bottom: 20px;
+    background: #f0f3f7;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    float: left;
+    line-height: 60px;
+}
+
+.wpbel-top-nav-buttons .wpbel-top-nav-buttons-border {
+    width: 1px;
+    height: 60px;
+    background: #fff;
+    float: left;
+}
+
+.wpbel-top-nav-buttons .wpbel-top-nav-buttons-group {
+    float: left;
+    padding: 0 10px;
+}
+
+.wpbel-top-nav-buttons label {
+    font-size: 10pt;
+    margin-right: 10px;
+}
+
+.wpbel-top-nav-buttons button {
+    border: 0;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 6px 15px;
+    margin-right: 5px;
+    box-shadow: 0 0 10px 0 rgba(88, 76, 189, 0.2);
+    cursor: pointer;
+    font-size: 10pt;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.wpbel-top-nav-buttons button[disabled="disabled"] {
+    background: #e3e3e3 !important;
+    color: #444;
+}
+
+.wpbel-top-nav-buttons button:hover {
+    background: #5449b5;
+    color: #fff;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.wpbel-top-nav-buttons button[disabled="disabled"]:hover {
+    color: #444;
+}
+
+.wpbel-table {
+    width: 100%;
+    max-height: 100%;
+    text-align: left;
+    overflow: auto;
+    border: 1px #dbdbdb solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.4) rgba(255, 255, 255, 0.3);
+}
+
+.wpbel-table::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.wpbel-table::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.wpbel-table::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 3px solid transparent;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.scroll-wrapper {
+    border: 1px #dbdbdb solid !important;
+    border-radius: 7px !important;
+    -moz-border-radius: 7px !important;
+    -webkit-border-radius: 7px !important;
+    margin: 0 !important;
+    height: auto !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+table thead th {
+    border: 1px #fff solid;
+    border-bottom: 1px #dbdbdb solid !important;
+}
+
+table thead th,
+table tfoot th {
+    vertical-align: middle;
+}
+
+.wpbel-table table {
+    width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    border-spacing: 0;
+    text-align: left;
+}
+
+.wpbel-table tbody tr td.wpbel-text-alert {
+    border: 0 !important;
+}
+
+.wpbel-table thead th,
+.wpbel-table tfoot th {
+    color: #444;
+    background: #fff;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.538;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.wpbel-table thead th .wpbel-column-title,
+.wpbel-table tfoot th .wpbel-column-title {
+    width: 20px;
+    height: 20px;
+}
+
+.wpbel-table tbody tr td {
+    padding: 2px 10px;
+    vertical-align: middle;
+    font-size: 9pt;
+    position: relative;
+    z-index: 99;
+    border-bottom: 1px #dbdbdb solid;
+    border-right: 1px #dbdbdb solid;
+    line-height: 24px;
+}
+
+table td label {
+    display: inline-table;
+    margin-right: 10px;
+}
+
+.wpbel-table tbody tr td span img {
+    vertical-align: middle;
+    width: 30px;
+    height: auto;
+}
+
+.wpbel-table tbody tr td:last-child {
+    border-right: 0;
+}
+
+.wpbel-table tbody tr td[data-action="inline-editable"],
+.wpbel-table tbody tr td[data-toggle="modal"],
+.wpbel-table .wpbel-image-inline-edit img {
+    cursor: pointer;
+}
+
+.wpbel-is-taxonomy-modal,
+.wpbel-is-attribute-modal {
+    width: 100%;
+    cursor: pointer;
+    display: table-cell !important;
+    line-height: 35px;
+}
+
+.wpbel-category-item {
+    float: left;
+    padding: 0;
+    margin: 0 5px 0 0;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.wpbel-table tbody tr td textarea {
+    width: 100%;
+    height: 100%;
+    display: inline-table;
+}
+
+.wpbel-item-edited,
+.wpbel-item-edited .wpbel-td-sticky {
+    background-color: #ebf4cd !important;
+}
+
+.wpbel-table tbody tr.wpbel-tr-selected {
+    background: #f6f6f6;
+}
+
+.wpbel-table tbody tr.wpbel-tr-selected .wpbel-td-sticky {
+    background: #f6f6f6 !important;
+}
+
+.wpbel-table tbody tr:hover {
+    background: #eee !important;
+}
+
+.wpbel-table tbody tr:hover .wpbel-td-sticky {
+    background: #eee !important;
+}
+
+.wpbel-table tr[data-item-type="variation"],
+.wpbel-table tr[data-item-type="variation"] .wpbel-td-sticky {
+    background: #f0ebd6 !important;
+}
+
+.wpbel-tab-middle-content {
+    width: 100%;
+    margin: 10px 0 0 0;
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+
+.wpbel-form-input {
+    margin-bottom: 30px;
+}
+
+.wpbel-form-input label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.wpbel-form-input input[type="text"],
+.wpbel-form-input textarea,
+.wpbel-form-input select {
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+    background: #ffffff;
+    line-height: 22px;
+    padding: 10px 15px;
+    box-sizing: content-box;
+    width: 25em;
+    font-size: 12px;
+    color: #595858;
+}
+
+.wpbel-tab-footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 0 0 0;
+    display: inline-table;
+    width: 100%;
+}
+
+.wpbel-tab-footer-left {
+    float: left;
+}
+
+.wpbel-tab-footer-right {
+    float: right;
+}
+
+.wpbel-form-group,
+.wpbel-bulk-edit-form-group {
+    width: 100%;
+    margin: 0 0 15px 0;
+    display: inline-table;
+}
+
+.wpbel-form-group .wpbel-description-full-width {
+    width: 100%;
+    display: inline-block;
+    padding: 0 0 0 180px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 10pt;
+    color: rgb(151, 151, 151);
+    font-style: italic;
+}
+
+.wpbel-form-group .wpbel-label-big,
+.wpbel-bulk-edit-form-group .wpbel-label-big {
+    width: 100%;
+}
+
+.wpbel-form-group label,
+.wpbel-form-group select,
+.wpbel-form-group input[type="text"],
+.wpbel-form-group textarea,
+.wpbel-form-group input[type="number"],
+.wpbel-form-group .wpbel-select2,
+.wpbel-form-group .wpbel-input-md,
+.wpbel-bulk-edit-form-group label,
+.wpbel-bulk-edit-form-group select,
+.wpbel-bulk-edit-form-group input[type="text"],
+.wpbel-bulk-edit-form-group textarea,
+.wpbel-bulk-edit-form-group input[type="number"],
+.wpbel-bulk-edit-form-group .wpbel-select2,
+.wpbel-bulk-edit-form-group .wpbel-input-md {
+    float: left;
+    min-height: 34px;
+}
+
+.wpbel-form-group label,
+.wpbel-bulk-edit-form-group label {
+    font-size: 14px;
+    width: 180px;
+    line-height: 34px;
+}
+
+.wpbel-tab-content-item[data-content="settings"] label {
+    width: 300px;
+}
+
+.wpbel-bulk-edit-form-text-replace {
+    clear: bottom;
+    float: left;
+    margin-left: 200px;
+}
+
+.wpbel-form-group .wpbel-short-description,
+.wpbel-bulk-edit-form-group .wpbel-short-description {
+    display: inline-table;
+    margin-left: 10px;
+    font-size: 10pt;
+    color: rgb(180, 48, 48);
+    line-height: 34px;
+}
+
+.wpbel-form-group select,
+.wpbel-bulk-edit-form-group select {
+    width: 100px;
+    margin: 0 10px 0 0;
+}
+
+.wpbel-form-group input[type="text"],
+.wpbel-form-group textarea,
+.wpbel-form-group input[type="number"],
+.wpbel-bulk-edit-form-group input[type="text"],
+.wpbel-bulk-edit-form-group textarea,
+.wpbel-bulk-edit-form-group input[type="number"] {
+    width: 440px;
+}
+
+.wpbel-form-group .wpbel-select2,
+.wpbel-bulk-edit-form-group .wpbel-select2 {
+    width: 423px !important;
+}
+
+.wpbel-form-group .wpbel-input-numeric-sm,
+.wpbel-bulk-edit-form-group .wpbel-input-numeric-sm {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.selection {
+    width: 100%;
+    height: 24px;
+    font-size: 9pt !important;
+}
+
+.wpbel-form-group .select2-selection,
+.wpbel-bulk-edit-form-group .select2-selection,
+.wpbel-form-group .select2-container,
+.wpbel-bulk-edit-form-group .select2-container {
+    width: 423px !important;
+    min-height: 43px;
+    margin-left: 0 !important;
+}
+
+.selection {
+    height: auto !important;
+    display: block !important;
+}
+
+.wpbel-form-group .select2-container {
+    margin-left: 10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    padding: 2px 5px;
+    font-size: 10pt;
+}
+
+.select2-search__field {
+    width: 100% !important;
+    margin-top: 0 !important;
+}
+
+.wpbel-top-nav-filters,
+.wpbel-top-nav-filters-switcher {
+    padding: 5px;
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    float: left;
+    z-index: 99;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.wpbel-top-nav-filters-left {
+    float: left;
+}
+
+.wpbel-top-nav-filters-per-page {
+    margin: 6px 6px 0 0;
+}
+
+.wpbel-top-nav-filters-per-page select {
+    height: 30px !important;
+    border-color: #bbb !important;
+}
+
+.wpbel-top-nav-filters-per-page,
+.wpbel-items-pagination {
+    float: right;
+}
+
+.wpbel-top-nav-filters-search,
+.wpbel-top-nav-filters-paginate {
+    float: left;
+}
+
+.wpbel-top-nav-filters-search input,
+.wpbel-top-nav-filters-search select {
+    float: left;
+    margin-right: 5px;
+}
+
+.wpbel-top-nav-filters-search button {
+    vertical-align: middle;
+    border: 0;
+    background: #584cbd;
+    color: #fff;
+    height: 34px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    cursor: pointer;
+}
+
+.wpbel-top-nav-filters-paginate {
+    float: right;
+    margin: 6px 6px 0 0;
+}
+
+.wpbel-top-nav-filters-paginate button,
+.wpbel-history-pagination-container button {
+    border: 0;
+    cursor: pointer;
+}
+
+.wpbel-top-nav-filters-paginate button,
+.wpbel-history-pagination-container button,
+.wpbel-history-pagination-container span,
+.wpbel-top-nav-filters-paginate span {
+    display: inline-table;
+    width: 30px;
+    height: 30px;
+    background: #f1f4f7;
+    color: #a4b4c8;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-right: 5px;
+}
+
+.wpbel-top-nav-filters-paginate button:hover,
+.wpbel-history-pagination-container button:hover,
+.wpbel-top-nav-filters-paginate .current,
+.wpbel-history-pagination-container .current {
+    background: #a4b4c8;
+    color: #fff;
+}
+
+#wpbel-items-list {
+    margin-bottom: 0 !important;
+    border-collapse: separate;
+}
+
+table.widefat {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.widefat tfoot td,
+.widefat tfoot th {
+    border-top: none !important;
+}
+
+.wpbel-modal {
+    display: none;
+    width: calc(100% - 160px);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 159000;
+    padding-left: 160px;
+}
+
+.wpbel-modal-in-float-side {
+    width: 80%;
+    padding-left: 0;
+}
+
+.wpbel-modal .wpbel-modal-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.wpbel-modal-box {
+    height: auto;
+    max-height: 80%;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 99;
+    background: #fff;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.wpbel-modal-box-lg {
+    width: 90%;
+    max-height: 80%;
+}
+
+.wpbel-modal-box-sm {
+    width: 45%;
+    max-height: 80%;
+}
+
+.wpbel-modal-content {
+    height: auto;
+    max-height: 92%;
+    overflow: hidden;
+    background: #fff;
+    padding-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+}
+
+.wpbel-modal-content .wpbel-modal-title {
+    width: 100%;
+    min-height: 40px;
+    border-bottom: 1px #e5e5e5 solid;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.wpbel-modal-content .wpbel-modal-title h2 {
+    line-height: 40px;
+    font-size: 12pt;
+    float: left;
+}
+
+.wpbel-modal-content .wpbel-modal-title .wpbel-modal-close {
+    float: right;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+
+.wpbel-modal-content .wpbel-modal-title .wpbel-modal-close i {
+    font-size: 15pt;
+    height: auto;
+    line-height: 40px;
+}
+
+.wpbel-modal-content .wpbel-modal-body {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    max-height: 90%;
+    padding-top: 10px;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-modal-content .wpbel-modal-body-content {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.wpbel-modal-content .wpbel-modal-footer {
+    width: 100%;
+    border-top: 1px #e5e5e5 solid;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 999999;
+    background-color: #fff;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+}
+
+
+/* Float side modal */
+
+.wpbel-float-side-modal {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 159000;
+}
+
+.wpbel-float-side-modal .wpbel-float-side-modal-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.wpbel-float-side-modal-box {
+    width: 80%;
+    height: calc(100% - 32px);
+    position: absolute;
+    top: 32px;
+    right: -80%;
+    bottom: 0;
+    z-index: 99;
+    background: #fff;
+}
+
+.wpbel-float-side-modal-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-float-side-modal .wpbel-tabs-contents {
+    width: 100%;
+    overflow: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-float-side-modal button.wpbel-tab-item {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-title {
+    width: 100%;
+    height: 45px;
+    min-height: 40px;
+    border-bottom: 1px #e5e5e5 solid;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-title h2 {
+    line-height: 40px;
+    font-size: 12pt;
+    float: left;
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-title .wpbel-float-side-modal-close {
+    float: right;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-title .wpbel-float-side-modal-close i {
+    font-size: 15pt;
+    height: auto;
+    line-height: 40px;
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-body {
+    width: 100%;
+    padding-top: 3px;
+    float: left;
+    overflow: auto;
+    height: calc(100% - 90px);
+    overflow: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.4) rgba(255, 255, 255, 0.3);
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-body::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 3px solid transparent;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.wpbel-float-side-modal-content .wpbel-float-side-modal-footer {
+    width: 100%;
+    height: 45px;
+    border-top: 1px #e5e5e5 solid;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 999999;
+    background-color: #fff;
+    padding: 5px 12px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wpbel-history-filter,
+.wpbel-export,
+.wpbel-import {
+    width: 100%;
+    border: 1px #dbdbdb solid;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+}
+
+.wpbel-import {
+    margin-top: 40px;
+}
+
+.wpbel-import .wpbel-import-content {
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-history-filter .wpbel-history-filter-field-item,
+.wpbel-export .wpbel-export-field-item {
+    width: 25%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+}
+
+.wpbel-history-filter .wpbel-history-filter-field-item label,
+.wpbel-export .wpbel-export-field-item .label {
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-history-filter .wpbel-history-filter-field-item input,
+.wpbel-history-filter .wpbel-history-filter-field-item select,
+.wpbel-export .wpbel-export-field-item select,
+.wpbel-export .wpbel-export-field-item label {
+    width: 100%;
+    float: left;
+}
+
+.wpbel-history-filter .wpbel-history-filter-field-date input {
+    width: 44%;
+    float: left;
+    margin-right: 3%;
+}
+
+.wpbel-history-filter-buttons,
+.wpbel-export-buttons,
+.wpbel-import-buttons {
+    width: 100%;
+    float: left;
+    padding: 20px 10px;
+    margin-top: 30px;
+    border-top: 1px #dbdbdb solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-history-filter-buttons .wpbel-history-filter-buttons-left,
+.wpbel-export-buttons .wpbel-export-buttons-left,
+.wpbel-import-buttons .wpbel-import-buttons-left {
+    float: left;
+}
+
+.wpbel-history-filter-buttons .wpbel-history-filter-buttons-right {
+    float: right;
+}
+
+.wpbel-history-items,
+.wpbel-filter-profiles-items,
+.wpbel-column-manager-items {
+    width: 100%;
+    display: inline-table;
+    margin: 30px 0 0 0;
+}
+
+.wpbel-history-items h3 {
+    text-transform: uppercase;
+}
+
+.wpbel-history-items table,
+.wpbel-filter-profiles-items table,
+.wpbel-column-manager-items table {
+    width: 100%;
+}
+
+.wpbel-history-items table tr,
+.wpbel-filter-profiles-items table tr,
+.wpbel-column-manager-items table tr {
+    border-bottom: 1px #e3e3e3 solid;
+}
+
+.wpbel-history-items table th,
+.wpbel-filter-profiles-items table th,
+.wpbel-column-manager-items table th {
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.wpbel-history-items table td,
+.wpbel-filter-profiles-items table td,
+.wpbel-column-manager-items table td {
+    padding: 10px;
+    font-size: 11pt;
+    vertical-align: middle;
+    color: #727272;
+}
+
+.wpbel-history-items table tbody tr:hover,
+.wpbel-filter-profiles-items table tbody tr:hover,
+.wpbel-column-manager-items table tbody tr:hover {
+    background: #f6f6f6;
+}
+
+.wpbel-history-items table tbody tr:hover td,
+.wpbel-filter-profiles-items table tbody tr:hover td,
+.wpbel-column-manager-items table tbody tr:hover td {
+    color: #000;
+}
+
+.wpbel-fw600 {
+    font-weight: 600;
+}
+
+.wpbel-history-text-sm {
+    width: 100%;
+    display: inline-table;
+    font-size: 9pt;
+    word-break: break-all;
+}
+
+.wpbel-export-radio {
+    margin-bottom: 10px;
+    font-size: 10pt;
+}
+
+.wpbel-meta-fields-left {
+    width: 35%;
+    float: left;
+    border: 1px #dbdbdb solid;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+.wpbel-meta-fields-manual,
+.wpbel-meta-fields-acf,
+.wpbel-meta-fields-automatic {
+    width: 100%;
+    float: left;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-meta-fields-acf,
+.wpbel-meta-fields-automatic {
+    border-top: 1px #dbdbdb solid;
+}
+
+.wpbel-meta-fields-manual label,
+.wpbel-meta-fields-acf label,
+.wpbel-meta-fields-automatic label {
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.wpbel-meta-fields-manual input,
+.wpbel-meta-fields-acf .select2-container,
+.wpbel-meta-fields-automatic input {
+    border: 0;
+}
+
+.wpbel-meta-fields-manual-field,
+.wpbel-meta-fields-acf-field,
+.wpbel-meta-fields-automatic-field {
+    width: 100%;
+    height: 48px;
+    float: left;
+    border: 1px #dbdbdb solid;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 6px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-meta-fields-manual-field input,
+.wpbel-meta-fields-acf-field .select2-container,
+.wpbel-meta-fields-automatic-field input {
+    width: 75% !important;
+    max-width: 75% !important;
+    height: 34px !important;
+    float: left;
+}
+
+.wpbel-meta-fields-acf-field .select2-container .select2-selection--single,
+.wpbel-meta-fields-acf-field .select2-container .selection,
+.wpbel-meta-fields-acf-field .select2-container--default .select2-selection--single .select2-selection__arrow,
+.wpbel-meta-fields-acf-field .select2-container--default .select2-selection--single .select2-selection__rendered {
+    height: 34px !important;
+}
+
+.wpbel-meta-fields-acf-field .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 34px !important;
+}
+
+.wpbel-meta-fields-manual-field input:focus,
+.wpbel-meta-fields-acf-field select:focus,
+.wpbel-meta-fields-automatic-field input:focus {
+    border: 0;
+    box-shadow: none;
+}
+
+.wpbel-meta-fields-manual-field button,
+.wpbel-meta-fields-acf-field button,
+.wpbel-meta-fields-automatic-field button {
+    float: right;
+}
+
+.wpbel-meta-fields-buttons {
+    width: 100%;
+    display: inline-table;
+    margin-top: 30px;
+}
+
+.wpbel-meta-fields-right {
+    width: 62%;
+    min-height: 284px;
+    float: right;
+    border: 1px #dbdbdb solid;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item,
+.wpbel-column-manager-added-fields {
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+}
+
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item,
+.wpbel-column-manager-added-fields .wpbel-column-manager-right-item {
+    width: 100%;
+    float: left;
+    border-bottom: 1px #dbdbdb solid;
+    padding: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: left;
+}
+
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item .wpbel-meta-fields-name,
+.wpbel-column-manager-added-fields .wpbel-column-manager-right-item .wpbel-column-manager-field-name,
+.wpbel-column-manager-added-fields .wpbel-column-manager-right-item .wpbel-column-manager-field-title,
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item .wpbel-meta-fields-title {
+    width: 26%;
+    float: left;
+    font-size: 11pt;
+    line-height: 34px;
+}
+
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item .wpbel-meta-fields-title,
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item .wpbel-meta-fields-type {
+    margin-right: 5px;
+}
+
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item .wpbel-meta-fields-values,
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item .wpbel-meta-fields-type {
+    width: 16%;
+    height: 34px;
+    float: left;
+    margin-top: 0;
+    line-height: 34px;
+}
+
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item span.wpbel-meta-fields-type {
+    text-align: center;
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+.wpbel-meta-fields-right .wpbel-meta-fields-right-item button,
+.wpbel-column-manager-added-fields .wpbel-column-manager-right-item button {
+    float: right;
+    margin-left: 8px;
+}
+
+.wpbel-meta-fields-key-value {
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+    padding-left: 26%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-meta-fields-key-value input,
+.wpbel-meta-fields-key-value p {
+    width: 78%;
+    padding: 0 2px;
+    box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    -webkit-box-sizing: content-box !important;
+}
+
+.wpbel-meta-fields-key-value p {
+    font-size: 9pt;
+    font-style: italic;
+    color: #757575;
+    padding-top: 5px;
+}
+
+.wpbel-column-manager-new-profile {
+    width: 100%;
+    float: left;
+    margin: 40px 0 0 0;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-section-title {
+    width: 100%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-left {
+    width: 25%;
+    float: left;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-left .wpbel-column-manager-search-field {
+    width: 100%;
+    height: 50px !important;
+    border-color: #dbdbdb;
+    padding: 7px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0 0 10px 0;
+    float: right;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-check-all-fields-btn {
+    width: 100%;
+    float: left;
+    height: 34px;
+    font-size: 10pt;
+    line-height: 34px;
+    text-align: center;
+    background: #f6f6f6;
+    border: 1px #e3e3e3 solid;
+    margin-bottom: 10px;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-check-all-fields-btn span.selected {
+    background: #00c0ef;
+    color: #fff;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-check-all-fields-btn input[type="checkbox"] {
+    display: none;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-left .wpbel-column-manager-available-fields {
+    width: 100%;
+    height: 320px;
+    border: 1px #dbdbdb solid;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-left .wpbel-column-manager-available-fields ul {
+    width: 100%;
+    height: 256px;
+    overflow: auto;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-left .wpbel-column-manager-available-fields li {
+    width: 98%;
+    font-size: 14px;
+    min-height: 34px;
+    line-height: 34px;
+    float: left;
+    margin-left: 2%;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-middle {
+    width: 10%;
+    height: 320px;
+    float: left;
+    position: relative;
+    margin-top: 90px;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-middle .wpbel-column-manager-middle-buttons {
+    width: 100%;
+    height: 105px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-middle .wpbel-column-manager-middle-buttons button {
+    margin-bottom: 5px;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-middle .wpbel-column-manager-middle-buttons button i {
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right {
+    width: 65%;
+    float: right;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-right-top {
+    width: 100%;
+    float: left;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-right-top input {
+    width: 76%;
+    height: 50px !important;
+    float: left;
+    border-color: #dbdbdb;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-right-top button {
+    float: right;
+    margin: 0;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-added-fields-wrapper {
+    width: 100%;
+    height: 320px;
+    border: 1px #dbdbdb solid;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    float: left;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.wpbel-column-manager-added-fields .wpbel-column-manager-right-item {
+    padding: 20px;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-added-fields .wp-picker-container {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    float: left;
+    margin-right: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-added-fields .wp-picker-holder {
+    position: absolute;
+}
+
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-added-fields .wp-picker-input-wrap,
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-added-fields .wp-color-result-text,
+.wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right .wpbel-column-manager-added-fields .wp-picker-input-wrap .button {
+    display: none;
+}
+
+.wpbel-column-manager-added-fields-wrapper .wpbel-column-manager-right-item .wpbel-column-manager-field-title {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.wpbel-filter-profiles-items,
+.wpbel-filter-profiles-items table {
+    margin: 0;
+}
+
+.wpbel-column-profiles-choose,
+.wpbel-column-profile-search {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.wpbel-column-profiles-choose label,
+.wpbel-column-profile-search label {
+    float: left;
+    width: 120px;
+    font-weight: bold;
+}
+
+.wpbel-column-profiles-choose select,
+.wpbel-column-profile-search input {
+    width: 350px;
+    float: left;
+}
+
+.wpbel-column-profile-select-all {
+    line-height: 34px;
+    float: left;
+    margin-left: 10px;
+}
+
+.wpbel-column-profiles-fields {
+    width: 100%;
+    float: left;
+}
+
+.wpbel-column-profiles-fields li {
+    width: 20%;
+    float: left;
+    min-height: 34px;
+    line-height: 34px;
+}
+
+.wpbel-products-category-list li {
+    width: 100%;
+    float: left;
+    min-height: 34px;
+    line-height: 34px;
+}
+
+.wpbel-products-category-list li ul {
+    margin: 0 0 0 20px;
+}
+
+.wpbel-modal-top-search {
+    width: 98%;
+    float: left;
+    margin: 15px 1%;
+}
+
+.wpbel-modal-top-search input {
+    width: 100%;
+    float: left;
+    height: 40px !important;
+}
+
+td[data-content-type="numeric"] {
+    position: relative;
+}
+
+.wpbel-bulk-edit-form-item-image-preview,
+.wpbel-bulk-edit-form-item-gallery-preview {
+    float: left;
+    margin-left: 10px;
+}
+
+.wpbel-bulk-edit-form-item-image-preview div,
+.wpbel-bulk-edit-form-item-gallery-preview div {
+    width: 43px;
+    height: 43px;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+.wpbel-bulk-edit-form-item-image-preview img,
+.wpbel-bulk-edit-form-item-gallery-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wpbel-bulk-edit-form-item-image-preview button,
+.wpbel-bulk-edit-form-item-gallery-preview button {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    line-height: 11px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 9;
+    padding: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.wpbel-bulk-edit-form-item-image-preview button i,
+.wpbel-bulk-edit-form-item-gallery-preview button i {
+    font-size: 12px;
+}
+
+.wpbel-calculator {
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: 0;
+    background: url(../images/calculator.png) no-repeat center center;
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.wpbel-pb0 {
+    padding-bottom: 0 !important;
+}
+
+.wpbel-h50 {
+    height: 50px !important;
+}
+
+.wpbel-td50 {
+    min-width: 50px;
+}
+
+.wpbel-td70 {
+    min-width: 70px;
+}
+
+.wpbel-td100 {
+    min-width: 100px;
+}
+
+.wpbel-td140 {
+    min-width: 140px;
+}
+
+.wpbel-td160 {
+    min-width: 160px;
+}
+
+.wpbel-td160 .select2-container {
+    width: 160px !important;
+}
+
+.wpbel-td120 {
+    min-width: 120px;
+}
+
+.wpbel-td160 input,
+.wpbel-td120 input {
+    width: 100%;
+}
+
+.wpbel-bulk-edit-form-selection-tools {
+    display: none;
+}
+
+.ui-sortable-placeholder {
+    visibility: visible !important;
+    background-color: #e3e3e3 !important;
+    box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+}
+
+.sweet-alert h2 {
+    font-size: 17pt;
+    line-height: 36px;
+    padding-bottom: 10px;
+}
+
+.sweet-alert p {
+    font-size: 12pt;
+    margin: 0 0 15px 0;
+}
+
+.sweet-overlay {
+    z-index: 161000;
+}
+
+.sweet-alert {
+    z-index: 162000;
+}
+
+.tipsy {
+    z-index: 170000;
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    font-size: 12px !important;
+}
+
+.wpbel-new-product-attribute-form-group,
+.wpbel-new-product-taxonomy-form-group {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+.wpbel-new-product-attribute-form-group label,
+.wpbel-new-product-taxonomy-form-group label {
+    width: 60% !important;
+    float: left;
+    height: auto;
+}
+
+.wpbel-new-product-attribute-form-group input,
+.wpbel-new-product-attribute-form-group select,
+.wpbel-new-product-attribute-form-group textarea,
+.wpbel-new-product-taxonomy-form-group input,
+.wpbel-new-product-taxonomy-form-group select,
+.wpbel-new-product-taxonomy-form-group textarea {
+    float: left;
+    margin: 0;
+    width: 60% !important;
+    max-width: 60% !important;
+}
+
+.wpbel-inline-edit-gallery-item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    background-color: #f6f6f6;
+}
+
+.wpbel-inline-edit-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wpbel-inline-edit-gallery-item button.wpbel-inline-edit-gallery-image-item-delete {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    top: 2px;
+    right: 2px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #ff4136;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.wpbel-inline-edit-gallery-add-image {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.wpbel-inline-edit-gallery-add-image i {
+    width: auto;
+    height: auto;
+    font-size: 26pt;
+}
+
+.wpbel-filter-profile-loaded {
+    background-color: #ebf4cd;
+}
+
+.wpbel-column-profile-save-dropdown {
+    width: 220px;
+    min-height: 34px;
+    cursor: pointer;
+    float: left;
+}
+
+.wpbel-bulk-edit-delete-item {
+    width: 150px;
+    height: 33px;
+    cursor: pointer;
+    float: left;
+    margin: 15px 5px 0 0;
+    position: relative;
+    z-index: 9;
+}
+
+.wpbel-column-profile-save-dropdown span,
+.wpbel-bulk-edit-delete-item span {
+    width: 100%;
+    height: 34px;
+    float: left;
+    line-height: 34px;
+    padding: 0 17px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #1e8f56;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    position: relative;
+    z-index: 162000;
+}
+
+.wpbel-bulk-edit-delete-item span {
+    height: 33px;
+    background-color: #fff;
+    color: #444;
+    box-shadow: 0 0 10px 0 rgba(88, 76, 189, 0.2);
+    font-weight: 300;
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+
+.wpbel-column-profile-save-dropdown i,
+.wpbel-bulk-edit-delete-item i {
+    float: right;
+    margin: 10px 0;
+}
+
+.wpbel-column-profile-save-dropdown .wpbel-column-profile-save-dropdown-buttons,
+.wpbel-bulk-edit-delete-item .wpbel-bulk-edit-delete-item-buttons {
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 161000;
+}
+
+.wpbel-bulk-edit-delete-item .wpbel-bulk-edit-delete-item-buttons {
+    top: 33px;
+    left: 0;
+    z-index: 99;
+    box-shadow: 0 0 10px 0 rgba(88, 76, 189, 0.2);
+}
+
+.wpbel-column-profile-save-dropdown .wpbel-column-profile-save-dropdown-buttons ul,
+.wpbel-bulk-edit-delete-item .wpbel-bulk-edit-delete-item-buttons ul {
+    width: 220px;
+    border-top: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #00a65a;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+
+.wpbel-bulk-edit-delete-item .wpbel-bulk-edit-delete-item-buttons ul {
+    width: 150px;
+    background: #fff;
+}
+
+.wpbel-column-profile-save-dropdown .wpbel-column-profile-save-dropdown-buttons ul li,
+.wpbel-bulk-edit-delete-item .wpbel-bulk-edit-delete-item-buttons ul li {
+    width: 100%;
+    display: inline-table;
+    height: 34px;
+    line-height: 34px;
+    cursor: pointer;
+    padding: 0 17px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #fff;
+    font-size: 12px;
+}
+
+.wpbel-bulk-edit-delete-item .wpbel-bulk-edit-delete-item-buttons ul li {
+    display: block;
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    color: #444;
+}
+
+.wpbel-column-profile-save-dropdown .wpbel-column-profile-save-dropdown-buttons ul li:hover {
+    background-color: #269859;
+}
+
+.wpbel-bulk-edit-delete-item .wpbel-bulk-edit-delete-item-buttons ul li:hover {
+    background-color: #e3e3e3;
+}
+
+.wpbel-bulk-edit-form-extra-field {
+    width: 80%;
+    float: left;
+    margin: 10px 0 20px 180px;
+}
+
+#wpbel-items-list th.wpbel-td-sticky {
+    z-index: 9987;
+}
+
+#wpbel-items-list .wpbel-td-sticky {
+    position: sticky;
+    z-index: 9986;
+}
+
+#wpbel-items-list .wpbel-td-sticky-id {
+    width: 171px;
+    min-width: 171px;
+    left: 0;
+}
+
+#wpbel-items-list .wpbel-td-sticky-title {
+    width: 181px;
+    left: 171px;
+}
+
+#wpbel-items-list .wpbel-gray-bg {
+    background-color: #f6f6f6;
+}
+
+.wpbel-meta-fields-empty-text,
+.wpbel-column-manager-empty-text {
+    text-align: center;
+    padding: 50px 0;
+    color: #aaa;
+}
+
+.mce-container,
+.mce-widget {
+    z-index: 199000 !important;
+}
+
+#wpbel-modal-select-products .wpbel-select2,
+#wpbel-modal-select-products .select2-container {
+    float: left;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#wpbel-modal-select-files .wpbel-modal-select-files-file-item {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#wpbel-modal-select-files .wpbel-select-files-sortable-btn {
+    margin: 2px 10px 0 0;
+    float: left;
+}
+
+.wp-picker-active {
+    position: relative;
+}
+
+.wpbel-datepicker {
+    margin-bottom: 18px;
+}
+
+td .wpbel-datepicker {
+    margin-bottom: 0;
+}
+
+div[data-content="column-manager"] .wp-picker-container .wp-color-result.button {
+    margin: 1px 0 0 0 !important;
+    width: 34px;
+    height: 34px !important;
+}
+
+.wpbel-inline-edit-color-action {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    background: #1b801b;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.wpbel-bulk-edit-form-group .wp-picker-container {
+    margin-left: 10px;
+}
+
+.wpbel-bulk-edit-form-group .wp-picker-container .wpbel-color-picker-field {
+    width: auto !important;
+    height: auto !important;
+}
+
+.wpbel-inline-edit-color-action span {
+    vertical-align: middle;
+}
+
+.wpbel-clear-date-btn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 0;
+    right: 3px;
+    top: 0;
+    margin: auto;
+    font-size: 9pt;
+    border: 0;
+    background: none !important;
+    cursor: pointer;
+    padding: 0;
+}
+
+.wpbel-sortable-column {
+    cursor: pointer;
+}
+
+.wpbel-modal-product-title {
+    font-size: 11pt;
+    font-weight: 300;
+    color: rgb(107, 107, 107);
+}
+
+.wpbel-sortable-column-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: table
+}
+
+.wpbel-sortable-column-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.wpbel-sortable-column-icon i {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#wpbel-license-info {
+    width: 100%;
+    display: block;
+    position: relative;
+    background: #f6f6f6;
+    font-size: 11pt;
+    padding: 30px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    overflow: hidden;
+}
+
+#wpbel-license-info h1 {
+    line-height: 30px;
+    font-size: 14pt;
+    margin-bottom: 40px;
+}
+
+#wpbel-license-info .wpbel-license-status {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block !important;
+}
+
+#wpbel-license-info .wpbel-license-status-active {
+    border-top: 50px solid #00a651;
+    border-right: 50px solid #00a651;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+
+#wpbel-license-info .wpbel-license-status-deactivated {
+    border-top: 50px solid #e7a30f;
+    border-right: 50px solid #e7a30f;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+
+#wpbel-license-info .wpbel-license-status-active span,
+#wpbel-license-info .wpbel-license-status-deactivated span {
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    color: #fff;
+}
+
+#wpbel-license-info .wpbel-license-renew {
+    width: 100%;
+    float: right;
+    margin: 0;
+}
+
+#wpbel-license-info .wpbel-license-renew button {
+    float: right;
+    margin: 0 0 0 5px !important;
+}
+
+#wpbel-license-info h1 form {
+    float: right;
+}
+
+#wpbel-license-info div {
+    width: 100%;
+    display: inline-table;
+    margin: 0 0 10px 0;
+}
+
+#wpbel-license-info .wpbel-license-info-half {
+    display: inline-table;
+    width: 100%;
+}
+
+#wpbel-license-info .wpbel-license-info-half div {
+    float: left;
+    width: 50%;
+}
+
+#wpbel-license-info div span {
+    width: 150px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#wpbel-license-activation-form {
+    display: inline-table;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px #dbdbdb solid;
+    font-size: 11pt;
+    margin: 20px 0 40px 0;
+}
+
+#wpbel-license-activation-form label {
+    min-width: 17%;
+    height: 45px;
+    font-weight: bold;
+    float: left;
+    line-height: 45px;
+}
+
+#wpbel-license-activation-form input[type=text],
+#wpbel-license-activation-form input[type=number],
+#wpbel-license-activation-form select,
+#wpbel-license-activation-form input[type=email] {
+    width: 50%;
+    max-width: 50%;
+    height: 45px !important;
+    font-weight: bold;
+    float: left;
+}
+
+#wpbel-license-activation-form input[type=checkbox] {
+    margin-top: 15px;
+    float: left;
+}
+
+#wpbel-license-activation-form span {
+    float: left;
+    margin-left: 10px;
+    font: italic 16px Calibri, Tahoma;
+    line-height: 45px;
+}
+
+#wpbel-license-activation-form button {
+    float: right;
+    padding: 0 23px;
+}
+
+.wpbel-column-profile-compatibles-group {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 0 10px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-column-profile-compatibles-group .wpbel-column-profile-compatibles-group-title {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+    font-size: 10pt;
+    color: #4d4d4d;
+}
+
+.wpbel-column-profile-fields-group {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.wpbel-column-profile-compatibles-group .wpbel-column-profile-fields-group {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.wpbel-column-profile-fields-group label {
+    font-size: 10pt;
+}
+
+.wpbel-column-profile-fields-group .group-title {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.wpbel-column-profile-fields-group .group-title::before {
+    width: 100%;
+    content: ' ';
+    height: 2px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    z-index: 8;
+}
+
+.wpbel-column-profile-fields-group .group-title h3 {
+    background: #fff;
+    padding: 0 15px;
+    float: left;
+    position: relative;
+    z-index: 9;
+    margin-left: 20px;
+    font-size: 11pt;
+    line-height: 27px;
+}
+
+.wpbel-top-nav-filters-switcher label {
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.wpbel-top-nav-filters-switcher select {
+    float: left;
+}
+
+.wpbel-new-post-taxonomy-form-group label,
+.wpbel-new-post-taxonomy-form-group select,
+.wpbel-new-post-taxonomy-form-group input {
+    width: 100% !important;
+    margin-left: 0;
+}
+
+.wpbel-form-group .wpbel-input-md,
+.wpbel-bulk-edit-form-group .wpbel-input-md,
+.wpbel-select-child-md select,
+.wpbel-select-child-md .select2-container {
+    width: 280px !important;
+    margin-left: 0 !important;
+}
+
+.wpbel-bulk-edit-form-group[data-type="custom_fields"] .select2-container {
+    margin-left: 10px !important;
+}
+
+.wpbel-select-child-md .select2-container,
+.wpbel-select-child-md .select2-selection {
+    width: 280px !important;
+    height: 43px;
+}
+
+.wpbel-select-child-md .select2-selection {
+    border: 1px solid #7e8993;
+}
+
+.wpbel-select-child-md .select2-container .select2-selection--single .select2-selection__rendered {
+    line-height: 41px;
+    font-size: 10pt;
+}
+
+.scroll-wrapper>.scroll-content {
+    height: auto !important;
+}
+
+.wpbel-license-field {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.wpbel-items-count {
+    font-size: 12px;
+}
+
+.wpbel-status-filter-container {
+    float: left;
+    position: relative;
+    z-index: 9986;
+}
+
+.wpbel-status-filter-button svg {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.wpbel-status-filter-button svg path {
+    fill: #686868;
+}
+
+.wpbel-status-filter-button {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0 8px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #3e3e3e;
+    height: 30px;
+    font-size: 13px;
+    border: 1px #8c8f94 solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-top-nav-status-filter {
+    display: none;
+    background-color: #fff;
+    width: 170px;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    z-index: 99;
+    border: 1px #e3e3e3 solid;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.wpbel-top-nav-status-filter ul li {
+    width: 100%;
+    float: left;
+    line-height: 30px;
+}
+
+.wpbel-top-nav-status-filter ul li button {
+    float: left;
+    margin: 0 6px;
+    font-size: 10pt;
+    color: #3e3e3e;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1260px) {
+    .wpbel-form-group label,
+    .wpbel-bulk-edit-form-group label,
+    #wpbel-filter-form-content input[type="text"],
+    #wpbel-filter-form-content textarea,
+    #wpbel-filter-form-content input[type="number"],
+    #wpbel-filter-form-content select,
+    #wpbel-modal-bulk-edit input[type="text"],
+    #wpbel-modal-bulk-edit textarea,
+    #wpbel-modal-bulk-edit input[type="number"],
+    #wpbel-modal-bulk-edit select {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .wpbel-modal {
+        width: 100%;
+        padding-left: 0;
+    }
+    .wpbel-modal-box-lg,
+    .wpbel-modal-box-sm {
+        width: 95%;
+    }
+    #wpbel-items-list .wpbel-td-sticky {
+        position: static;
+    }
+    .wpbel-tab-footer-left {
+        margin-bottom: 10px;
+    }
+    .wpbel-header-left #wpbel-full-screen {
+        display: none;
+    }
+    .wpbel-plugin-help .wpbel-plugin-help-text {
+        display: none;
+    }
+    #wpbel-bulk-edit-navigation {
+        position: static;
+    }
+    .wpbel-form-group input[type=number],
+    .wpbel-form-group input[type=text],
+    .wpbel-form-group select {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 10px 0 !important;
+    }
+    .wpbel-tabs-list li a.selected {
+        display: inline-table !important;
+    }
+    .wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-left,
+    .wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-middle {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 0 20px 0 !important;
+    }
+    .wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-middle .wpbel-column-manager-middle-buttons {
+        position: static;
+        height: auto;
+    }
+    .wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right {
+        width: 100%;
+    }
+    .wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right #wpbel-column-manager-new-preset-name,
+    .wpbel-column-manager-new-profile .wpbel-column-manager-new-profile-right button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .wpbel-table-border-radius .wpbel-button {
+        margin-bottom: 5px;
+    }
+    .wpbel-meta-fields-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wpbel-meta-fields-right {
+        width: 100%;
+    }
+    .wpbel-history-filter .wpbel-history-filter-field-item,
+    .wpbel-export .wpbel-export-field-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wpbel-history-filter .wpbel-history-filter-field-item input,
+    .wpbel-export .wpbel-export-field-item input,
+    .wpbel-history-filter .wpbel-history-filter-field-item select,
+    .wpbel-export .wpbel-export-field-item select {
+        max-width: 100% !important;
+    }
+    .wpbel-history-filter-buttons .wpbel-history-filter-buttons-right {
+        float: left;
+    }
+    .wpbel-history-items {
+        display: block;
+    }
+    .wpbel-table-border-radius {
+        overflow: auto;
+    }
+    .wpbel-form-group .wpbel-description-full-width {
+        padding: 0;
+    }
+}
+
+.dropdown-wrapper {
+    display: block !important;
+}
+
+button[data-target="#wpbel-modal-new-item"] {
+    background: #4ebc4c;
+    color: #fff;
+}
+
+.wpbel-field-help {
+    height: 43px;
+    float: left;
+    line-height: 39px;
+    margin-left: 5px;
+}
+
+.wpbel-filter-form-grouped-fields-item {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+#wpbel-body .wpbel-created-by {
+    position: absolute;
+    bottom: 4px;
+    right: 18px;
+}
+
+#wpbel-body .wpbel-created-by a {
+    float: right;
+    font-size: 9pt;
+    color: #b4b4b4;
+}
+
+.wpbel-form-group strong {
+    font-size: 11pt;
+}
+
+.wpbel-sub-tab-titles {
+    width: 100%;
+    display: inline-table;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #f9f9f9;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-sub-tab-titles li {
+    display: inline-table;
+}
+
+.wpbel-sub-tab-titles li a {
+    display: inline-table;
+    color: #808080;
+    font-size: 10pt;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px #cccccc solid;
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.wpbel-sub-tab-titles li:last-child a {
+    border: 0;
+}
+
+.wpbel-sub-tab-titles li a:hover {
+    color: #505050;
+}
+
+.wpbel-sub-tab-titles li a.active {
+    color: #000000;
+}
+
+.wpbel-sub-tab-contents {
+    width: 100%;
+    display: inline-table;
+}
+
+.wpbel-sub-tab-contents .wpbel-sub-tab-content {
+    width: 100%;
+    display: none;
+}
+
+.wpbel-thumbnail-hover-box {
+    display: none;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    z-index: 999999999999;
+    text-align: center;
+}
+
+.wpbel-thumbnail-hover-box img {
+    height: auto;
+    max-width: 100%;
+    box-shadow: 0 0 25.5px rgba(0, 0, 0, 0.4);
+}
+
+.wpbel-original-thumbnail {
+    display: none;
+}
+
+.wpbel-thumbnail-hover-box .wpbel-original-thumbnail {
+    display: block
+}
+
+.wpbel-top-navigation-trash-buttons {
+    display: none;
+}
+
+.wpbel-license-activation-form-top-alert {
+    font-size: 11pt;
+    font-family: "Open Sans", serif;
+    font-style: normal;
+    width: 100%;
+    display: inline-table;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+
+.wpbel-modal-add-ons-items {
+    width: 100%;
+    float: left;
+}
+
+.wpbel-modal-add-ons-items .wpbel-modal-add-ons-item {
+    width: 23%;
+    float: left;
+    margin: 0 1% 20px;
+    overflow: hidden;
+    color: #3e3e3e;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+.wpbel-modal-add-ons-items .wpbel-modal-add-ons-item .wpbel-modal-add-on-image {
+    width: 100%;
+    float: left;
+}
+
+.wpbel-modal-add-ons-items .wpbel-modal-add-ons-item .wpbel-modal-add-on-name {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    padding: 0 10px;
+    text-align: center;
+    color: #3e3e3e;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpbel-modal-add-ons-items .wpbel-modal-add-ons-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.license_status {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.active_license {
+    border-top: 30px solid #00a651;
+    border-right: 30px solid #00a651;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+.wpbel-inactive-license {
+    border-top: 30px solid #e7a30f;
+    border-right: 30px solid #e7a30f;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+.wpbel-coming-soon-license {
+    border-top: 30px solid #9c9c9c;
+    border-right: 30px solid #9c9c9c;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+.license_status svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -22px;
+    right: -22px;
+    fill: #fff;
+}
+
+.license_status i {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: -22px;
+    right: -22px;
+}
+
+#wpbel-items-list th {
+    position: sticky;
+    z-index: 9985;
+    border-right: 1px #f1f1f1 solid;
+    padding: 8px 5px;
+    white-space: nowrap;
+}
+
+#wpbel-items-list thead th {
+    top: 0;
+    background-color: #f9f6f6;
+}
+
+#wpbel-items-list tfoot th {
+    bottom: 0;
+}
+
+#wpbel-items-list td select {
+    padding: 0 18px 0 2px !important;
+}
+
+#wpbel-items-list td .wpbel-icon-slash {
+    font-size: 20px;
+}
+
+.wpbel-top-nav-divider {
+    width: 1px;
+    height: 30px;
+    float: left;
+    margin: 0 10px;
+    background-color: #dbdbdb;
+}
+
+#wpbel-bulk-edit-duplicate-number,
+#wpbel-new-item-count {
+    width: 100%;
+    margin: 0;
+}
+
+.wpbel-has-sub-tab {
+    position: relative
+}
+
+.wpbel-has-sub-tab:hover .wpbel-sub-tab {
+    display: block;
+}
+
+#wpbel-quick-search-button i {
+    color: #fff !important;
+}
+
+.wpbel-bind-edit-switch.active:not(.disabled) i,
+.wpbel-new-item-button:not(.disabled) i {
+    color: #28a745;
+}
+
+.wpbel-tab-icon-red:not(.disabled) i {
+    color: #dc3545;
+}
+
+tr[data-item-type="variation"] {
+    display: none;
+}
+
+.wpbel-bind-edit-switch:not(.disabled) .default-icon {
+    display: block;
+}
+
+.wpbel-bind-edit-switch:not(.disabled) .active-icon {
+    position: relative;
+    display: none;
+}
+
+.wpbel-bind-edit-switch svg {
+    vertical-align: middle;
+}
+
+.wpbel-bind-edit-switch:not(.disabled) .default-icon {
+    display: block;
+}
+
+.wpbel-bind-edit-switch:not(.disabled) .active-icon {
+    position: relative;
+    display: none;
+}
+
+.wpbel-bind-edit-switch:not(.disabled) .active-icon::after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: -8px;
+    margin: auto;
+    background: #28a745;
+}
+
+.wpbel-bind-edit-switch.active:not(.disabled) .default-icon {
+    display: none;
+}
+
+.wpbel-bind-edit-switch.active:not(.disabled) .active-icon {
+    display: block;
+}
+
+.wpbel-post-items-list li ul {
+    padding-left: 15px;
+}
+
+.wpbel-inline-select-post .select2-container {
+    width: 100% !important;
+    height: 43px;
+}
+
+.wpbel-inline-select-post .select2-container .select2-selection--single {
+    height: 43px;
+    line-height: 41px;
+}
+
+.wpbel-inline-select-post .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 41px !important;
+}
+
+.wpbel-top-nav-status-filter ul li button.all {
+    color: rgb(22, 99, 161)
+}
+
+.wpbel-top-nav-status-filter ul li button.publish {
+    color: #80e045;
+}
+
+.wpbel-top-nav-status-filter ul li button.draft {
+    color: #6ca9d6;
+}
+
+.wpbel-top-nav-status-filter ul li button.pending {
+    color: #bf8e8e;
+}
+
+.wpbel-top-nav-status-filter ul li button.private {
+    color: #ea4848;
+}
+
+.wpbel-top-nav-status-filter ul li button.trash {
+    color: #808080;
+}
+
+.wpbel-top-nav-status-filter ul li button.pending.active {
+    color: #f9b52f !important;
+    border-bottom: 2px #f9b52f solid;
+    font-weight: bold;
+}
+
+.wpbel-top-nav-status-filter ul li button.all.active {
+    color: rgb(22, 99, 161) !important;
+    border-bottom: 2px rgb(22, 99, 161) solid;
+    font-weight: bold;
+}
+
+.wpbel-top-nav-status-filter ul li button.publish.active {
+    color: #57ce0d !important;
+    border-bottom: 2px #57ce0d solid;
+    font-weight: bold;
+}
+
+.wpbel-top-nav-status-filter ul li button.draft.active {
+    color: #53b0f5 !important;
+    border-bottom: 2px #53b0f5 solid;
+    font-weight: bold;
+}
+
+.wpbel-top-nav-status-filter ul li button.private.active {
+    color: #d41010 !important;
+    border-bottom: 2px #d41010 solid;
+    font-weight: bold;
+}
+
+.wpbel-top-nav-status-filter ul li button.trash.active {
+    color: #808080 !important;
+    border-bottom: 2px #808080 solid;
+    font-weight: bold;
+}
+
+.wpbel-load-text-editor {
+    padding: 2px !important;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.wpbel-load-text-editor i {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wpbel-get-pro-button {
+    width: auto !important;
+    height: auto !important;
+    font-size: 13px;
+    margin-right: 5px !important;
+    padding: 0 10px;
+    background-color: #35ac6e;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-weight: 700;
+}
+
+.wpbel-get-pro-button:hover a {
+    color: #fff !important;
+}

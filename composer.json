@@ -1,0 +1,16 @@
+{
+    "name": "ithemeland/xbulk-bulk-edit-bundle",
+    "authors": [
+        {
+            "name": "iThemeland",
+            "email": "info@ithemelandco.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wbebl\\classes\\": "classes/"
+        }
+    },
+    "require": {},
+    "description": "xbulk bulk edit bundle"
+}
